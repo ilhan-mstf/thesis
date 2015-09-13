@@ -99,6 +99,35 @@ Richard, P.%
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
+Seitz%
+, Museum of modern~art (New~York%
+, museum for contemporary~arts (Tex.)%
+\BCBL {}\ \BBA {} museum~of art%
+}{%
+Seitz%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {1961}}%
+}]{%
+seitz1961art}
+\APACinsertmetastar {%
+seitz1961art}%
+\begin{APACrefauthors}%
+Seitz, W\BPBI C.%
+, Museum of modern~art (New~York, N.%
+, museum for contemporary~arts (Tex.), D.%
+\BCBL {}\ \BBA {} museum~of art, S\BPBI F.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYear{1961}.
+\newblock
+\APACrefbtitle {The art of assemblage} {The art of assemblage}\ (\BVOL~19)\
+  (\BNUM~1).
+\newblock
+\APACaddressPublisher{}{Museum of Modern Art New York}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
 Thompson%
 }{%
 Thompson%
@@ -119,6 +148,29 @@ Thompson, M.%
   theory: the creation and destruction of value}.
 \newblock
 \APACaddressPublisher{}{Oxford University Press}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Waldman%
+}{%
+Waldman%
+}{%
+{\protect \APACyear {1992}}%
+}]{%
+waldman1992collage}
+\APACinsertmetastar {%
+waldman1992collage}%
+\begin{APACrefauthors}%
+Waldman, D.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYear{1992}.
+\newblock
+\APACrefbtitle {Collage, Assemblage, and the Found Object} {Collage,
+  assemblage, and the found object}.
+\newblock
+\APACaddressPublisher{}{H.N. Abrams}.
 \PrintBackRefs{\CurrentBib}
 
 \end{thebibliography}
