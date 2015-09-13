@@ -1,3 +1,124 @@
 \begin{thebibliography}{}
 
+\bibitem [\protect \citeauthoryear {%
+Camic%
+}{%
+Camic%
+}{%
+{\protect \APACyear {2010}}%
+}]{%
+camic2010trashed}
+\APACinsertmetastar {%
+camic2010trashed}%
+\begin{APACrefauthors}%
+Camic, P\BPBI M.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2010}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {From trashed to treasured: A grounded theory analysis of
+  the found object.} {From trashed to treasured: A grounded theory analysis of
+  the found object.}{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Psychology of Aesthetics, Creativity, and the
+  Arts}{4}{2}{81}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Meadow%
+}{%
+Meadow%
+}{%
+{\protect \APACyear {2011}}%
+}]{%
+meadow2011relocation}
+\APACinsertmetastar {%
+meadow2011relocation}%
+\begin{APACrefauthors}%
+Meadow, M\BPBI A.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2011}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Relocation and revaluation in university collections,
+  or, Rubbish Theory revisited} {Relocation and revaluation in university
+  collections, or, rubbish theory revisited}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{International Committee for University Museums and
+  Collections (UMAC) Proceedings}{3}{}{}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Parsons%
+}{%
+Parsons%
+}{%
+{\protect \APACyear {2008}}%
+}]{%
+parsons2008thompsons}
+\APACinsertmetastar {%
+parsons2008thompsons}%
+\begin{APACrefauthors}%
+Parsons, L.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2008}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Thompsons’ rubbish theory: exploring the practices of
+  value creation} {Thompsons’ rubbish theory: exploring the practices of
+  value creation}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{European Advances in Consumer Research}{8}{}{390--393}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Richard%
+}{%
+Richard%
+}{%
+{\protect \APACyear {2013}}%
+}]{%
+paul2013garbage}
+\APACinsertmetastar {%
+paul2013garbage}%
+\begin{APACrefauthors}%
+Richard, P.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2013}{November}{29}.
+\newblock
+\APACrefbtitle {What do you call garbage?} {What do you call garbage?}
+\newblock
+\begin{APACrefURL} [{September 13,
+  2015}]\url{https://enviropaul.wordpress.com/tag/garbage-etymologies-solid-waste/}
+  \end{APACrefURL}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Thompson%
+}{%
+Thompson%
+}{%
+{\protect \APACyear {1979}}%
+}]{%
+thompson1979rubbish}
+\APACinsertmetastar {%
+thompson1979rubbish}%
+\begin{APACrefauthors}%
+Thompson, M.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYear{1979}.
+\newblock
+\APACrefbtitle {Rubbish theory: the creation and destruction of value} {Rubbish
+  theory: the creation and destruction of value}.
+\newblock
+\APACaddressPublisher{}{Oxford University Press}.
+\PrintBackRefs{\CurrentBib}
+
 \end{thebibliography}
