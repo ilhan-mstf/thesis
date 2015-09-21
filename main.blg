@@ -13,47 +13,47 @@ Reallocated wiz_functions (elt_size=4) to 9000 items from 6000.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Database file #1: ref.bib
 Warning--entry type for "paul2013garbage" isn't style-file defined
---line 123 of file ref.bib
+--line 152 of file ref.bib
 apacite.bst [2013/07/21 v6.03 APA bibliography style]
-You've used 14 entries,
+You've used 15 entries,
             6951 wiz_defined-function locations,
-            1339 strings with 12244 characters,
-and the built_in function-call counts, 24625 in all, are:
-= -- 3271
+            1347 strings with 12445 characters,
+and the built_in function-call counts, 26267 in all, are:
+= -- 3453
 > -- 211
-< -- 884
-+ -- 875
-- -- 29
-* -- 1359
-:= -- 3923
-add.period$ -- 66
-call.type$ -- 14
-change.case$ -- 263
+< -- 994
++ -- 973
+- -- 31
+* -- 1487
+:= -- 4262
+add.period$ -- 70
+call.type$ -- 15
+change.case$ -- 280
 chr.to.int$ -- 0
-cite$ -- 28
-duplicate$ -- 661
-empty$ -- 1095
-format.name$ -- 263
-if$ -- 5092
+cite$ -- 30
+duplicate$ -- 702
+empty$ -- 1163
+format.name$ -- 277
+if$ -- 5370
 int.to.chr$ -- 0
-int.to.str$ -- 46
+int.to.str$ -- 49
 missing$ -- 0
-newline$ -- 330
-num.names$ -- 122
-pop$ -- 579
+newline$ -- 352
+num.names$ -- 130
+pop$ -- 595
 preamble$ -- 1
-purify$ -- 60
+purify$ -- 64
 quote$ -- 0
-skip$ -- 1872
+skip$ -- 1977
 stack$ -- 0
-substring$ -- 1083
-swap$ -- 416
-text.length$ -- 82
+substring$ -- 1146
+swap$ -- 447
+text.length$ -- 79
 text.prefix$ -- 0
 top$ -- 1
-type$ -- 1512
+type$ -- 1592
 warning$ -- 0
-while$ -- 117
+while$ -- 122
 width$ -- 0
-write$ -- 370
+write$ -- 394
 (There was 1 warning)

@@ -22,8 +22,8 @@ Bullock, M.%
 \newblock
 \BIn{} C.~Zimring\ \BBA {} W.~Rathje\ (\BEDS), \APACrefbtitle {Encyclopedia of
   Consumption and Waste: The Social Science of Garbage} {Encyclopedia of
-  consumption and waste: The social science of garbage}\ (\BVOL~2,
-  \BPG~934-935).
+  consumption and waste: The social science of garbage}\ (\BVOL~2, \BPGS\
+  934--935).
 \newblock
 \APACaddressPublisher{}{SAGE Publications}.
 \PrintBackRefs{\CurrentBib}
@@ -54,6 +54,30 @@ Camic, P\BPBI M.%
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
+Cruickshank%
+}{%
+Cruickshank%
+}{%
+{\protect \APACyear {2007}}%
+}]{%
+cruickshank2007work}
+\APACinsertmetastar {%
+cruickshank2007work}%
+\begin{APACrefauthors}%
+Cruickshank, R.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2007}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {The Work of Art in the Age of Global Consumption:
+  Agn{\`e}s Varda's Les Glaneurs et la glaneuse} {The work of art in the age of
+  global consumption: Agn{\`e}s varda's les glaneurs et la glaneuse}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{L'Esprit Createur}{47}{3}{119--132}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
 de Trafford%
 }{%
 de Trafford%
@@ -74,8 +98,8 @@ de Trafford, A.%
 \newblock
 \BIn{} C.~Zimring\ \BBA {} W.~Rathje\ (\BEDS), \APACrefbtitle {Encyclopedia of
   Consumption and Waste: The Social Science of Garbage} {Encyclopedia of
-  consumption and waste: The social science of garbage}\ (\BVOL~2,
-  \BPG~658-660).
+  consumption and waste: The social science of garbage}\ (\BVOL~2, \BPGS\
+  658--660).
 \newblock
 \APACaddressPublisher{}{SAGE Publications}.
 \PrintBackRefs{\CurrentBib}
@@ -124,8 +148,8 @@ Lukas, S\BPBI A.%
 \newblock
 \BIn{} C.~Zimring\ \BBA {} W.~Rathje\ (\BEDS), \APACrefbtitle {Encyclopedia of
   Consumption and Waste: The Social Science of Garbage} {Encyclopedia of
-  consumption and waste: The social science of garbage}\ (\BVOL~1,
-  \BPG~164-168).
+  consumption and waste: The social science of garbage}\ (\BVOL~1, \BPGS\
+  164--168).
 \newblock
 \APACaddressPublisher{}{SAGE Publications}.
 \PrintBackRefs{\CurrentBib}
@@ -152,8 +176,8 @@ Lukas, S\BPBI A.%
 \newblock
 \BIn{} C.~Zimring\ \BBA {} W.~Rathje\ (\BEDS), \APACrefbtitle {Encyclopedia of
   Consumption and Waste: The Social Science of Garbage} {Encyclopedia of
-  consumption and waste: The social science of garbage}\ (\BVOL~1,
-  \BPG~300-302).
+  consumption and waste: The social science of garbage}\ (\BVOL~1, \BPGS\
+  300--302).
 \newblock
 \APACaddressPublisher{}{SAGE Publications}.
 \PrintBackRefs{\CurrentBib}
@@ -282,8 +306,8 @@ Tauxe, C.%
 \newblock
 \BIn{} C.~Zimring\ \BBA {} W.~Rathje\ (\BEDS), \APACrefbtitle {Encyclopedia of
   Consumption and Waste: The Social Science of Garbage} {Encyclopedia of
-  consumption and waste: The social science of garbage}\ (\BVOL~1,
-  \BPG~296-299).
+  consumption and waste: The social science of garbage}\ (\BVOL~1, \BPGS\
+  296--299).
 \newblock
 \APACaddressPublisher{}{SAGE Publications}.
 \PrintBackRefs{\CurrentBib}

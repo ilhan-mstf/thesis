@@ -1,13 +1,14 @@
 # Fdb version 3
-["bibtex main"] 1442761232 "main.aux" "main.bbl" "main" 1442761233
+["bibtex main"] 1442845720 "main.aux" "main.bbl" "main" 1442845721
   "/usr/share/texlive/texmf-dist/bibtex/bst/apacite/apacite.bst" 1374530685 141073 9d7b79dbf9d91133318126032cff8c27 ""
-  "main.aux" 1442761233 7292 060fae2af96124f28cf6cdebc33d2985 ""
+  "main.aux" 1442845721 7764 92d8bcc9105eda67fd79869daa6355f7 ""
   "main.bcf" 0 -1 0 ""
-  "ref.bib" 1442761230 3908 7f43c86c923f8f51a47310a978953fad ""
+  "ref.bib" 1442837458 5005 800ec367ea35917b7feaf56be467a404 ""
   (generated)
   "main.bbl"
-["pdflatex"] 1442761233 "main.tex" "main.pdf" "main" 1442761233
-  "/etc/texmf/web2c/texmf.cnf" 1428658118 1101 af7716885e081ab43982cab7b4672c1a ""
+  "main.blg"
+["pdflatex"] 1442845720 "main.tex" "main.pdf" "main" 1442845721
+  "/etc/texmf/web2c/texmf.cnf" 1437602125 1101 af7716885e081ab43982cab7b4672c1a ""
   "/usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1272929888 3287 e6b82fe08f5336d4d5ebc73fb1152e87 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmbx10.tfm" 1136768653 1328 c834bbb027764024c09d3d2bf908b5f0 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmbx12.tfm" 1136768653 1324 c910af8c371558dc20f2d7822f66fe64 ""
@@ -55,12 +56,12 @@
   "/usr/share/texlive/texmf-dist/tex/latex/ucs/utf8x.def" 1368571634 8036 21f7ac37aafb6cfeddbb196b8bfd6280 ""
   "/usr/share/texlive/texmf-dist/web2c/texmf.cnf" 1406646078 31088 8e088e958dd0258cc5414842768a3a00 ""
   "/usr/share/texmf/web2c/texmf.cnf" 1406646078 31088 8e088e958dd0258cc5414842768a3a00 ""
-  "/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map" 1428658778 1503893 47272feb4fc48e6673190e51dd3e3b21 ""
-  "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1428658365 3836620 012478315c6f73cc9dfe53832fb96b07 ""
-  "main.aux" 1442761233 7292 060fae2af96124f28cf6cdebc33d2985 ""
-  "main.bbl" 1442761233 8676 302cf96a91794651ded136ed011b4923 "bibtex main"
-  "main.tex" 1442761230 35325 31ac427bf3af80f2c0106f52b1ac99f8 ""
+  "/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map" 1437602531 1503893 47272feb4fc48e6673190e51dd3e3b21 ""
+  "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1437602279 3836620 fe12d59591bd629458cfaecef18cdb79 ""
+  "main.aux" 1442845721 7764 92d8bcc9105eda67fd79869daa6355f7 ""
+  "main.bbl" 1442845720 9317 1a9f0f6e22a14845bbbcffb47df62c8f "bibtex main"
+  "main.tex" 1442845719 45265 aee8acce41718a553e7e21643fef8867 ""
   (generated)
-  "main.log"
-  "main.aux"
   "main.pdf"
+  "main.aux"
+  "main.log"
