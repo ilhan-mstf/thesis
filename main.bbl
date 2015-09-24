@@ -105,6 +105,31 @@ de Trafford, A.%
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
+Greenberg%
+}{%
+Greenberg%
+}{%
+{\protect \APACyear {1984}}%
+}]{%
+greenberg1984collage}
+\APACinsertmetastar {%
+greenberg1984collage}%
+\begin{APACrefauthors}%
+Greenberg, C.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{1984}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Collage} {Collage}.{\BBCQ}
+\newblock
+\BIn{} \APACrefbtitle {Art and culture : critical essays.} {Art and culture :
+  critical essays.}\ (\BPGS\ 70--83).
+\newblock
+\APACaddressPublisher{}{Boston : Beacon Press, [1984?], c1961.}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
 Levi-Strauss%
 }{%
 Levi-Strauss%
