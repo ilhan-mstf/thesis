@@ -127,6 +127,29 @@ Levi-Strauss, C.%
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
+LeWitt%
+}{%
+LeWitt%
+}{%
+{\protect \APACyear {1967}}%
+}]{%
+lewitt1967paragraphs}
+\APACinsertmetastar {%
+lewitt1967paragraphs}%
+\begin{APACrefauthors}%
+LeWitt, S.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{1967}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Paragraphs on conceptual art} {Paragraphs on conceptual
+  art}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Artforum}{5}{10}{79--83}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
 Lukas%
 }{%
 Lukas%
@@ -180,6 +203,32 @@ Lukas, S\BPBI A.%
   300--302).
 \newblock
 \APACaddressPublisher{}{SAGE Publications}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+McDonough%
+\ \BBA {} Braungart%
+}{%
+McDonough%
+\ \BBA {} Braungart%
+}{%
+{\protect \APACyear {2010}}%
+}]{%
+mcdonough2010cradle}
+\APACinsertmetastar {%
+mcdonough2010cradle}%
+\begin{APACrefauthors}%
+McDonough, W.%
+\BCBT {}\ \BBA {} Braungart, M.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYear{2010}.
+\newblock
+\APACrefbtitle {Cradle to cradle: Remaking the way we make things} {Cradle to
+  cradle: Remaking the way we make things}.
+\newblock
+\APACaddressPublisher{}{MacMillan}.
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
@@ -333,6 +382,29 @@ Thompson, M.%
   theory: the creation and destruction of value}.
 \newblock
 \APACaddressPublisher{}{Oxford University Press}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Vafin%
+}{%
+Vafin%
+}{%
+{\protect \APACyear {2012}}%
+}]{%
+vafin2012zizek}
+\APACinsertmetastar {%
+vafin2012zizek}%
+\begin{APACrefauthors}%
+Vafin, A.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2012}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Žižek, ECOLOGY, CONSERVATISM.} {Žižek, ecology,
+  conservatism.}{\BBCQ}
+\newblock
+\APACjournalVolNumPages{International Journal of Zizek Studies}{6}{1}{1}.
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
