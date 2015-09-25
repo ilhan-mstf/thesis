@@ -1,13 +1,5 @@
 # Fdb version 3
-["bibtex main"] 1443189974 "main.aux" "main.bbl" "main" 1443189975
-  "/usr/share/texlive/texmf-dist/bibtex/bst/apacite/apacite.bst" 1374530685 141073 9d7b79dbf9d91133318126032cff8c27 ""
-  "main.aux" 1443189975 9926 e1709ddf72409b2793dd8b8f33adc672 ""
-  "main.bcf" 0 -1 0 ""
-  "ref.bib" 1443127752 6105 3691eab1deae79c7f572105e4d502bf4 ""
-  (generated)
-  "main.bbl"
-  "main.blg"
-["pdflatex"] 1443189974 "main.tex" "main.pdf" "main" 1443189975
+["pdflatex"] 1443211036 "main.tex" "main.pdf" "main" 1443211037
   "/etc/texmf/web2c/texmf.cnf" 1437602125 1101 af7716885e081ab43982cab7b4672c1a ""
   "/usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1272929888 3287 e6b82fe08f5336d4d5ebc73fb1152e87 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmbx10.tfm" 1136768653 1328 c834bbb027764024c09d3d2bf908b5f0 ""
@@ -18,17 +10,6 @@
   "/usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmr12.tfm" 1136768653 1288 655e228510b4c2a1abe905c368440826 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmr17.tfm" 1136768653 1292 296a67155bdbfc32aa9c636f21e91433 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmsy10.tfm" 1136768653 1124 6c73e740cf17375f03eec0ee63599741 ""
-  "/usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmti12.tfm" 1136768653 1484 ed72f8f5cf654cda15ecc8e32bfcbee5 ""
-  "/usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmtt12.tfm" 1136768653 772 9a936b7f5e2ff0557fce0f62822f0bbf ""
-  "/usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb" 1248133631 34811 78b52f49e893bcba91bd7581cdc144c0 ""
-  "/usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb" 1248133631 32080 340ef9bf63678554ee606688e7b5339d ""
-  "/usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbxti10.pfb" 1248133631 36554 b67dc2cfa451409e100b3fcf5f506509 ""
-  "/usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb" 1248133631 35752 024fb6c41858982481f6968b5fc26508 ""
-  "/usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb" 1248133631 32722 d7379af29a190c3f453aba36302ff5a9 ""
-  "/usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb" 1248133631 32362 179c33bbf43f19adbb3825bb4e36e57a ""
-  "/usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb" 1248133631 32569 5e5ddc8df908dea60932f3c484a54c0d ""
-  "/usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb" 1248133631 36118 fad905eba93cff5bce1e185fe980a177 ""
-  "/usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb" 1248133631 24252 1e4e051947e12dfb50fee0b7f4e26e3a ""
   "/usr/share/texlive/texmf-dist/tex/context/base/supp-pdf.mkii" 1337017135 71627 94eb9990bed73c364d7f53f960cc8c5b ""
   "/usr/share/texlive/texmf-dist/tex/generic/babel-english/english.ldf" 1367878877 6963 2e0cb3d93aa64508bdb0db58ae900d97 ""
   "/usr/share/texlive/texmf-dist/tex/generic/babel/babel.def" 1395780385 49536 e1475dd245ff2196764ba5b91ac63714 ""
@@ -71,12 +52,9 @@
   "/usr/share/texmf/web2c/texmf.cnf" 1406646078 31088 8e088e958dd0258cc5414842768a3a00 ""
   "/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map" 1437602531 1503893 47272feb4fc48e6673190e51dd3e3b21 ""
   "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1437602279 3836620 fe12d59591bd629458cfaecef18cdb79 ""
-  "graphics/EloisaCartonera_Books.jpg" 1443127752 113658 58ae8f6c1ce35ae507bda7ad7ad4adda ""
-  "graphics/FilomenaCruz_RoadKill_ReVista.jpg" 1443127752 841515 c61cf59b1453df978a5737f40c6dfbab ""
-  "main.aux" 1443189975 9926 e1709ddf72409b2793dd8b8f33adc672 ""
-  "main.bbl" 1443189974 11384 74b3e49d880ffcbbb9f552c9cf85d2d4 "bibtex main"
-  "main.tex" 1443189919 78315 f88c413259ebd01aa0c80071e662e728 ""
+  "main.aux" 1443211037 2581 760dfe1d3deb100495228fceddf2a1a2 ""
+  "main.tex" 1443211031 86553 6718fb8a9b3a0b5d0a4f064dd59bc6a5 ""
   (generated)
   "main.pdf"
-  "main.aux"
   "main.log"
+  "main.aux"
