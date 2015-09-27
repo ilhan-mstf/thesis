@@ -1,12 +1,12 @@
 # Fdb version 3
-["bibtex main"] 1443297210 "main.aux" "main.bbl" "main" 1443297211
+["bibtex main"] 1443353671 "main.aux" "main.bbl" "main" 1443353672
   "/usr/share/texlive/texmf-dist/bibtex/bst/apacite/apacite.bst" 1374530685 141073 9d7b79dbf9d91133318126032cff8c27 ""
-  "main.aux" 1443297211 10107 eb3cdd7c73de925fa3827d7e82642fdb ""
+  "main.aux" 1443353671 10527 d2e38ed12c567ca1764830e6ce8007a3 ""
   "main.bcf" 0 -1 0 ""
-  "ref.bib" 1443297207 6105 3691eab1deae79c7f572105e4d502bf4 ""
+  "ref.bib" 1443353667 6105 3691eab1deae79c7f572105e4d502bf4 ""
   (generated)
   "main.bbl"
-["pdflatex"] 1443297211 "main.tex" "main.pdf" "main" 1443297211
+["pdflatex"] 1443353671 "main.tex" "main.pdf" "main" 1443353672
   "/etc/texmf/web2c/texmf.cnf" 1428658118 1101 af7716885e081ab43982cab7b4672c1a ""
   "/usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1272929888 3287 e6b82fe08f5336d4d5ebc73fb1152e87 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmbx10.tfm" 1136768653 1328 c834bbb027764024c09d3d2bf908b5f0 ""
@@ -70,12 +70,12 @@
   "/usr/share/texmf/web2c/texmf.cnf" 1406646078 31088 8e088e958dd0258cc5414842768a3a00 ""
   "/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map" 1428658778 1503893 47272feb4fc48e6673190e51dd3e3b21 ""
   "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1428658365 3836620 012478315c6f73cc9dfe53832fb96b07 ""
-  "graphics/EloisaCartonera_Books.jpg" 1443297208 113658 58ae8f6c1ce35ae507bda7ad7ad4adda ""
-  "graphics/FilomenaCruz_RoadKill_ReVista.jpg" 1443297208 841515 c61cf59b1453df978a5737f40c6dfbab ""
-  "main.aux" 1443297211 10107 eb3cdd7c73de925fa3827d7e82642fdb ""
-  "main.bbl" 1443297211 11384 74b3e49d880ffcbbb9f552c9cf85d2d4 "bibtex main"
-  "main.tex" 1443297207 89882 7447d04e267393dae63f42c65671f245 ""
+  "graphics/EloisaCartonera_Books.jpg" 1443353667 113658 58ae8f6c1ce35ae507bda7ad7ad4adda ""
+  "graphics/FilomenaCruz_RoadKill_ReVista.jpg" 1443353668 841515 c61cf59b1453df978a5737f40c6dfbab ""
+  "main.aux" 1443353671 10527 d2e38ed12c567ca1764830e6ce8007a3 ""
+  "main.bbl" 1443353671 11384 74b3e49d880ffcbbb9f552c9cf85d2d4 "bibtex main"
+  "main.tex" 1443353667 94342 830f812de58ca93e71d66f69b00403e1 ""
   (generated)
   "main.log"
-  "main.aux"
   "main.pdf"
+  "main.aux"
