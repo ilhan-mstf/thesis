@@ -130,6 +130,32 @@ Greenberg, C.%
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
+Highmore%
+}{%
+Highmore%
+}{%
+{\protect \APACyear {2002}}%
+}]{%
+highmore2002thrashaesthetics}
+\APACinsertmetastar {%
+highmore2002thrashaesthetics}%
+\begin{APACrefauthors}%
+Highmore, B.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2002}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Benjamin’s Trash Aesthetics} {Benjamin’s trash
+  aesthetics}.{\BBCQ}
+\newblock
+\BIn{} \APACrefbtitle {Everyday Life and Cultural Theory: An Introduction}
+  {Everyday life and cultural theory: An introduction}\ (\BPGS\ 60--75).
+\newblock
+\APACaddressPublisher{}{Taylor \& Francis}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
 Levi-Strauss%
 }{%
 Levi-Strauss%
@@ -282,6 +308,29 @@ Meadow, M\BPBI A.%
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
+Meyer%
+}{%
+Meyer%
+}{%
+{\protect \APACyear {2007}}%
+}]{%
+meyer2007turning}
+\APACinsertmetastar {%
+meyer2007turning}%
+\begin{APACrefauthors}%
+Meyer, D\BPBI L.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2007}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Turning Trash to Treasures: Recycled Art.} {Turning
+  trash to treasures: Recycled art.}{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Crafts Report}{32}{}{16--18}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
 Parsons%
 }{%
 Parsons%
@@ -356,6 +405,29 @@ Seitz, W\BPBI C.%
   (\BNUM~1).
 \newblock
 \APACaddressPublisher{}{Museum of Modern Art New York}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Strasser%
+}{%
+Strasser%
+}{%
+{\protect \APACyear {1999}}%
+}]{%
+strasser1999waste}
+\APACinsertmetastar {%
+strasser1999waste}%
+\begin{APACrefauthors}%
+Strasser, S.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYear{1999}.
+\newblock
+\APACrefbtitle {Waste and want : a social history of trash.} {Waste and want :
+  a social history of trash.}
+\newblock
+\APACaddressPublisher{}{New York : Metropolitan Books, 1999.}
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
