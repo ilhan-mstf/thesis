@@ -1,4 +1,4 @@
-PWD /tmp
+PWD /latexmk
 INPUT /etc/texmf/web2c/texmf.cnf
 INPUT /usr/share/texmf/web2c/texmf.cnf
 INPUT /usr/share/texlive/texmf-dist/web2c/texmf.cnf
@@ -121,10 +121,10 @@ INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmbx12.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmbx12.tfm
 INPUT /usr/share/texlive/texmf-dist/tex/latex/ucs/data/uni-32.def
 INPUT /usr/share/texlive/texmf-dist/tex/latex/ucs/data/uni-32.def
-INPUT /usr/share/texlive/texmf-dist/tex/latex/base/omscmr.fd
-INPUT /usr/share/texlive/texmf-dist/tex/latex/base/omscmr.fd
 INPUT /usr/share/texlive/texmf-dist/tex/latex/ucs/data/uni-0.def
 INPUT /usr/share/texlive/texmf-dist/tex/latex/ucs/data/uni-0.def
+INPUT /usr/share/texlive/texmf-dist/tex/latex/base/omscmr.fd
+INPUT /usr/share/texlive/texmf-dist/tex/latex/base/omscmr.fd
 OUTPUT chapter3.aux
 INPUT chapter3.tex
 INPUT chapter3.tex
