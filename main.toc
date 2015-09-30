@@ -64,5 +64,6 @@
 \contentsline {subsection}{\numberline {4.2.6}Why in the public space?}{32}
 \contentsline {subsection}{\numberline {4.2.7}Why is it art?}{32}
 \contentsline {subsection}{\numberline {4.2.8}Artistic tactics}{33}
+\contentsline {subsection}{\numberline {4.2.9}How I reached to notebook?}{33}
 \contentsline {chapter}{\numberline {5}Conclusion}{34}
 \contentsline {chapter}{References}{35}
