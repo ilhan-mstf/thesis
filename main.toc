@@ -1,0 +1,76 @@
+\select@language {english}
+\contentsline {chapter}{\numberline {1}Introduction}{1}
+\contentsline {chapter}{\numberline {2}Theory of Trash}{2}
+\contentsline {section}{\numberline {2.1}Etymology}{2}
+\contentsline {subsection}{\numberline {2.1.1}Origins of words: waste, trash, rubbish, scrap, junk, refuse, discard, litter}{2}
+\contentsline {subsection}{\numberline {2.1.2}The difference between reuse and recycle}{2}
+\contentsline {subsection}{\numberline {2.1.3}My terminology selection}{3}
+\contentsline {section}{\numberline {2.2}What is trash?}{3}
+\contentsline {subsection}{\numberline {2.2.1}Trash is everywhere and, produced every time}{4}
+\contentsline {subsubsection}{\numberline {2.2.1.1}Cycle of trash}{5}
+\contentsline {subsubsection}{\numberline {2.2.1.2}Examined-life, Zizek}{6}
+\contentsline {subsubsection}{\numberline {2.2.1.3}Perspectives related with trash from different disciplines}{8}
+\contentsline {subsubsection}{\numberline {2.2.1.4}Throw away culture}{8}
+\contentsline {subsubsection}{\numberline {2.2.1.5}How does it become trash?}{9}
+\contentsline {subsubsection}{\numberline {2.2.1.6}Types and Comparison of trashes}{9}
+\contentsline {subsubsection}{\numberline {2.2.1.7}What is wrong with trash?}{9}
+\contentsline {subsection}{\numberline {2.2.2}Collecting trash}{9}
+\contentsline {section}{\numberline {2.3}Rubbish Theory}{10}
+\contentsline {subsection}{\numberline {2.3.1}Rubbish Theory in Practice}{11}
+\contentsline {subsubsection}{\numberline {2.3.1.1}Transients, Rubbish and Durables}{12}
+\contentsline {subsubsection}{\numberline {2.3.1.2}The Practices of Value Creation: From Rubbish to Durable}{12}
+\contentsline {subsection}{\numberline {2.3.2}Theoretical Analysis of Found Object}{13}
+\contentsline {subsubsection}{\numberline {2.3.2.1}Seeking Objects}{13}
+\contentsline {subsubsection}{\numberline {2.3.2.2}Found Objects in Art}{14}
+\contentsline {section}{\numberline {2.4}Literature review, discussions, ideas\dots }{16}
+\contentsline {subsection}{\numberline {2.4.1}Culture, Values, and Garbage}{16}
+\contentsline {subsection}{\numberline {2.4.2}Garbage in Modern Thought}{17}
+\contentsline {subsubsection}{\numberline {2.4.2.1}Categorization and Value}{17}
+\contentsline {subsubsection}{\numberline {2.4.2.2}Semiotic Context}{18}
+\contentsline {section}{\numberline {2.5}Archaeology of Garbage}{18}
+\contentsline {subsection}{\numberline {2.5.1}Garbology}{18}
+\contentsline {subsection}{\numberline {2.5.2}Trash as History/Memory}{18}
+\contentsline {subsection}{\numberline {2.5.3}Trash Aesthetics}{18}
+\contentsline {subsection}{\numberline {2.5.4}Discussions}{18}
+\contentsline {chapter}{\numberline {3}Trash as Medium (Trash in the Art)}{20}
+\contentsline {section}{\numberline {3.1}Collage, Assemblage and the Found Object}{20}
+\contentsline {subsection}{\numberline {3.1.1}Collage}{20}
+\contentsline {subsection}{\numberline {3.1.2}Assemblage}{20}
+\contentsline {subsection}{\numberline {3.1.3}Found Object (Ready-mades)}{21}
+\contentsline {subsection}{\numberline {3.1.4}Bricolage}{21}
+\contentsline {subsection}{\numberline {3.1.5}Folk Art}{21}
+\contentsline {subsection}{\numberline {3.1.6}Art and activism}{21}
+\contentsline {subsection}{\numberline {3.1.7}Recycling in the context of Art}{21}
+\contentsline {subsection}{\numberline {3.1.8}Garbage Art}{21}
+\contentsline {subsection}{\numberline {3.1.9}History of Consumption and Waste}{22}
+\contentsline {section}{\numberline {3.2}The case of ``The Gleaners and I''}{22}
+\contentsline {section}{\numberline {3.3}Example Artworks}{25}
+\contentsline {subsection}{\numberline {3.3.1}Artist statements}{28}
+\contentsline {subsection}{\numberline {3.3.2}What might be the meaning of using trash as a medium in the artworks? Questioning trash as a medium for artist}{28}
+\contentsline {subsection}{\numberline {3.3.3}Artistic tactics}{29}
+\contentsline {section}{\numberline {3.4}Discussions}{29}
+\contentsline {chapter}{\numberline {4}My work}{31}
+\contentsline {section}{\numberline {4.1}Artist Statement}{31}
+\contentsline {section}{\numberline {4.2}Progress}{31}
+\contentsline {subsection}{\numberline {4.2.1}(Overcomed) Problems}{32}
+\contentsline {subsubsection}{\numberline {4.2.1.1}Functionality and Art Debate}{32}
+\contentsline {subsection}{\numberline {4.2.2}Paper}{33}
+\contentsline {subsubsection}{\numberline {4.2.2.1}Environmental Impact}{33}
+\contentsline {subsubsection}{\numberline {4.2.2.2}History of paper}{33}
+\contentsline {subsubsection}{\numberline {4.2.2.3}Production of paper}{34}
+\contentsline {subsubsection}{\numberline {4.2.2.4}Uses of paper}{34}
+\contentsline {subsection}{\numberline {4.2.3}Why (package) paper?}{34}
+\contentsline {subsection}{\numberline {4.2.4}Why covering notebooks and books?}{34}
+\contentsline {subsection}{\numberline {4.2.5}Why giving away?}{34}
+\contentsline {subsection}{\numberline {4.2.6}Why in the public space?}{34}
+\contentsline {subsection}{\numberline {4.2.7}Why is it art?}{34}
+\contentsline {subsection}{\numberline {4.2.8}Artistic tactics}{35}
+\contentsline {subsection}{\numberline {4.2.9}How I reached to notebook?}{35}
+\contentsline {subsection}{\numberline {4.2.10}What do I think about trash?}{35}
+\contentsline {section}{\numberline {4.3}Parts of project (or final work)}{36}
+\contentsline {subsection}{\numberline {4.3.1}Notebooks}{36}
+\contentsline {subsubsection}{\numberline {4.3.1.1}Name of notebooks}{36}
+\contentsline {subsubsection}{\numberline {4.3.1.2}Collected materials}{36}
+\contentsline {subsection}{\numberline {4.3.2}Website}{37}
+\contentsline {chapter}{\numberline {5}Conclusion}{38}
+\contentsline {chapter}{References}{39}
