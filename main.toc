@@ -70,7 +70,7 @@
 \contentsline {section}{\numberline {4.3}Parts of project (or final work)}{36}
 \contentsline {subsection}{\numberline {4.3.1}Notebooks}{36}
 \contentsline {subsubsection}{\numberline {4.3.1.1}Name of notebooks}{36}
-\contentsline {subsubsection}{\numberline {4.3.1.2}Collected materials}{36}
+\contentsline {subsubsection}{\numberline {4.3.1.2}Collected materials}{37}
 \contentsline {subsection}{\numberline {4.3.2}Website}{37}
-\contentsline {chapter}{\numberline {5}Conclusion}{38}
-\contentsline {chapter}{References}{39}
+\contentsline {chapter}{\numberline {5}Conclusion}{39}
+\contentsline {chapter}{References}{40}
