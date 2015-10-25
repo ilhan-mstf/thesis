@@ -78,6 +78,30 @@ Cruickshank, R.%
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
+Derrida%
+}{%
+Derrida%
+}{%
+{\protect \APACyear {1993}}%
+}]{%
+derrida1993structure}
+\APACinsertmetastar {%
+derrida1993structure}%
+\begin{APACrefauthors}%
+Derrida, J.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{1993}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Structure, sign, and play in the discourse of the human
+  sciences} {Structure, sign, and play in the discourse of the human
+  sciences}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{A postmodern reader}{}{}{223--242}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
 de Trafford%
 }{%
 de Trafford%
@@ -552,6 +576,28 @@ Zimring, C.%
   garbage}.
 \newblock
 \APACaddressPublisher{}{SAGE Publications}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Zubiaurre%
+}{%
+Zubiaurre%
+}{%
+{\protect \APACyear {2015}}%
+}]{%
+zubiaurre2015trash}
+\APACinsertmetastar {%
+zubiaurre2015trash}%
+\begin{APACrefauthors}%
+Zubiaurre, M.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2015}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Trash Moves} {Trash moves}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{ReVista (Cambridge)}{14}{2}{38}.
 \PrintBackRefs{\CurrentBib}
 
 \end{thebibliography}
