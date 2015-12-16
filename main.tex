@@ -7,7 +7,6 @@
 \usepackage[a4paper,left=40mm,right=25mm,top=25mm,bottom=25mm]{geometry}
 \usepackage{epigraph}
 \usepackage{graphicx}
-%\graphicspath{ {graphics/} }
 \usepackage{float}
 \usepackage{caption}
 \usepackage{subcaption}
@@ -15,14 +14,13 @@
 \usepackage[usenames,dvipsnames]{color}
 \usepackage[titletoc]{appendix}
 \usepackage[colorinlistoftodos]{todonotes}
-
-%\usepackage{chngcntr}
-%\counterwithout{figure}{chapter}
-
-%\usepackage{setspace}
-%\doublespacing
-
+\usepackage{afterpage}
 \usepackage[doublespacing]{setspace}
+\usepackage{tocloft}
+
+\usepackage{chngcntr}
+\counterwithout{figure}{chapter}
+\counterwithout{table}{chapter}
 
 \usepackage{natbib}
 \setlength{\bibsep}{0.0pt}
@@ -48,7 +46,7 @@
 \setlength{\epigraphrule}{0pt}
 
 \hypersetup{
-    pdftitle			= {Thesis Draft},
+    pdftitle			= {MFA Thesis},
     pdfauthor			= {Mustafa ilhan},
     pdfsubject			= {Trash, Art},
     pdfkeywords			= {mfa thesis, trash, art},
@@ -63,6 +61,7 @@
 \providecommand{\summary}[1]{\textcolor{blue}{[#1]}}
 \providecommand{\paraphrase}[1]{\textcolor{magenta}{\quotes{#1}}}
 
+% RENAMING CHAPTER TITLES
 \addto\captionsenglish{%
   \renewcommand{\contentsname}{\MakeUppercase{Table of Contents}}%
   \renewcommand{\listtablename}{\MakeUppercase{List of Tables}}%
@@ -80,9 +79,15 @@
 %........................................
 
 
+%****************************************
+% BEGIN
 \begin{document}
+\pagenumbering{gobble}
 \selectlanguage{english}
 
+
+%****************************************
+% COVER
 \begin{titlepage}
     \begin{center}
         
@@ -102,19 +107,50 @@
         Communication and Design\\
         İhsan Doğramacı Bilkent University\\
         Ankara\\
-        \today
+        January 2016
         \vspace{25mm}
         
     \end{center}
 \end{titlepage}
+%........................................
 
-\begin{titlepage}
-    \begin{center}
-        
-        \singlespacing
+
+%****************************************
+% BLANK PAGE
+\clearpage
+\afterpage{\null\newpage}
+\clearpage
+%........................................
+
+
+%****************************************
+% DEDICATION
+\newenvironment{dedication}
+  {\clearpage           % we want a new page
+   \thispagestyle{empty}% no header and footer
+   \vspace*{2in}		% some space at the top 
+   \centering
+  }
+  {\par					% end the paragraph
+   \vfill
+   \clearpage           % finish off the page
+  }
+
+\begin{dedication}
+To my family and for those who embrace trash
+\end{dedication}
+%........................................
+
+\pagenumbering{roman}
+
+%****************************************
+% TITLE PAGE
+\clearpage
+\thispagestyle{empty}
+\singlespacing
+	\begin{center}
         
         \vspace*{25mm}
-        TRANSFORMING TRASH AS AN ARTISTIC ACT\\
         TRANSFORMING TRASH AS AN ARTISTIC ACT\\
         \vspace*{4\baselineskip}
         Graduate School of Economics and Social Sciences\\
@@ -136,32 +172,91 @@
         ANKARA\\
         \vspace{\baselineskip}
         January 2016
-        
-    \end{center}
-\end{titlepage}
-
-\pagenumbering{roman}
+	\end{center}
+\clearpage
+%........................................
 
 
 %****************************************
-% ENGLISH
-\begin{abstract}
-Usage of non-art objects in the artworks can be traced back to the beginning of 20th century. This approach has broken the existing rules and extended the language of art in an unprecedented way. After that point, trash has found a place in the work of artists \comment{(and their expression)}.
+% APPROVAL PAGE
+\clearpage
+\thispagestyle{empty}
+\singlespacing
+\noindent I certify that I have read this thesis and have found that it is fully adequate, in scope and in quality, as a thesis for the degree of Master of Fine Arts in Media and Design.\\
+
+\noindent---------------------------------\\
+Assist. Prof. Dr. Ersan Ocak\\
+Supervisor\\
+
+\noindent I certify that I have read this thesis and have found that it is fully adequate, in scope and in quality, as a thesis for the degree of Master of Fine Arts in Media and Design.\\
+
+\noindent---------------------------------\\
+Prof. Dr. Mehmet Yılmaz\\
+Examining Commitee Member\\
+
+\noindent I certify that I have read this thesis and have found that it is fully adequate, in scope and in quality, as a thesis for the degree of Master of Fine Arts in Media and Design.\\
+
+\noindent---------------------------------\\
+Instructor Ekin Kılıç\\
+Examining Commitee Member\\
+
+\noindent Approval of the Graduate School of Economics and Social Sciences\\
+
+\noindent---------------------------------\\
+Prof. Dr. Halime Demirkan\\
+Director\\
+
+\clearpage
+%........................................
+
+
+%****************************************
+% ENGLISH ABSTRACT
+\thispagestyle{plain}
+\addcontentsline{toc}{chapter}{ABSTRACT}
+\doublespacing
+\begin{center}
+	\vspace*{25mm}
+	\MakeUppercase{Abstract}\\
+    \vspace{\baselineskip}
+    TRANSFORMING TRASH AS AN ARTISTIC ACT\\
+    İlhan, Mustafa\\
+    M.F.A., Department of Communication and Design\\
+    Supervisor: Assist. Prof. Dr. Ersan Ocak\\
+    \vspace{\baselineskip}
+    January 2016
+\end{center}
+\singlespacing
+\par Usage of non-art objects in the artworks can be traced back to the beginning of 20th century. This approach has broken the existing rules and extended the language of art in an unprecedented way. After that point, trash has found a place in the work of artists \comment{(and their expression)}.
 
 The purpose of this study is to discuss transformation (or usage) of trash in the context of (art and) artistic act. It is questioned that the role of art in the transformation of discarded items. Approaches and methodologies of artists who use discarded materials in their works are explored. This thesis follows the discussions of the place of trash in culture and theories of trash. Then approaches and methodologies of artists who use discarded materials in their works are explored. \comment{Usage of discarded materials in the artwork by the contemporary artist are studied through their works.} It is questioned that why and how they use discarded materials and how artworks can be understood regarding theoretical and cultural aspects.
 
 Within this framework, thesis project argues that it is possible to see the process of collecting, transforming and placing trash as an artistic act. In the scope of the project, discarded papers are collected with the help people and transformed to notebooks. Progress and collected items are recorded on a website. Notebooks are installed in different locations in order to invite people to use trash again. 
 
-\vfill\noindent\textbf{Keywords:} Transformation of Trash, Trash in Art, Trash as an Art Material.
-\end{abstract}
+\noindent\textbf{Keywords:} Transformation of Trash, Trash in Art, Trash as an Art Material.
+\clearpage
 %........................................
 
 
-\selectlanguage{turkish}
 %****************************************
-% TURKISH
-\begin{abstract}
-\comment{Sanatta çöpün yeri incelenip, çöpü dönüştürmenin bir sanatsal eylem olduğu iddia edilmektedir. Ya da en azından proje kapsamında üretilen işin. Ya da bu bağlamda ele alınabileceği iddia edilmektedir.}
+% TURKISH ABSTRACT
+\thispagestyle{plain}
+\selectlanguage{turkish}
+\addcontentsline{toc}{chapter}{ÖZET}
+\doublespacing
+\begin{center}
+	\vspace*{25mm}
+	\MakeUppercase{Özet}\\
+    \vspace{\baselineskip}
+    \MakeUppercase{Sanatsal Bir Eylem Olarak Çöpü Dönüştürme}\\
+    İlhan, Mustafa\\
+    Yüksek Lisans, İletişim ve Tasarım Bölümü\\
+    Tez Yöneticisi: Yrd. Doç. Dr. Ersan Ocak\\
+    \vspace{\baselineskip}
+    Ocak 2016
+\end{center}
+\singlespacing
+\par \comment{Sanatta çöpün yeri incelenip, çöpü dönüştürmenin bir sanatsal eylem olduğu iddia edilmektedir. Ya da en azından proje kapsamında üretilen işin. Ya da bu bağlamda ele alınabileceği iddia edilmektedir.}
 
 Bu çalışmanın amacı çöpü dönüştürmenin sanat ve sanatsal eylem bağlamında tartışmaktır. Çöpün kültürel ve kuramsal olarak nasıl ele alındığı(alınabileceği) araştırılmıştır. Çöpü dönüştürmenin nasıl ve ne şekilde mümkün olduğu incelenmiştir. Sanatsal üretim yöntemi olarak çöpü (tercih eden)/(kullanan) sanatçıların yaklaşımları ele alınmıştır. Neden ve nasıl atıkları sanat işlerinde ve eylemlerinde kullandıkları sorgulanmıştır ve bunun toplumsal ve teorik olarak nereye oturduğu/ne anlama geldiği/nasıl anlaşılabileceği incelenmiştir.
 
@@ -173,39 +268,114 @@ Bu çalışmanın amacı çöpü dönüştürmenin sanat ve sanatsal eylem bağl
 
 Tez dahilinde geliştirilen proje için insanlar örgütlenerek farklı mekanlardan farklı tiplerde atık kağıtlar toplanmıştır. Bu atık maddeler dönüştürülerek defter yapılmıştır. Renk, doku, biçim ve üretim yöntemi ile endüstriyel defterlere alternatif bir yaklaşım olması amaçlanmıştır. Bu defterler insanların ulaşabileceği belirli mekanlara dağıtılmıştır (yerleştirilmiştir). Mekanlar da aynı şekilde eleştirel bakış açısına açık yerler arasından seçilmiştir. Alternatif bir ortam sunan mekanlar seçilmiştir. Defterlerin mekanla belirli bir anlamsal ilişki içine girmesi amaçlanmıştır. Bu proje sonunda dönüştürülen şeylerin aynı zamanda dönüşütüğü şeyi de başka bir şeye dönüştürdüğü anlaşılmaktadır. Çöpe olan bakış açısının dönüştürülmesi amaç edilmiştir.
 
-\vfill\noindent\textbf{Anahtar Kelimeler:} Çöpün Dönüştürülmesi, Sanatta Çöp.
-\end{abstract}
+\noindent\textbf{Anahtar Kelimeler:} Çöpün Dönüştürülmesi, Sanatta Çöp.
+\clearpage
 %........................................
+
 \selectlanguage{english}
 
+%****************************************
+% ACKNOWLEDGMENTS
+\thispagestyle{plain}
+\addcontentsline{toc}{chapter}{ACKNOWLEDGMENTS}
+\doublespacing
+\begin{center}
+	\vspace*{25mm}
+	\MakeUppercase{ACKNOWLEDGMENTS}\\
+    \vspace{3\baselineskip}
+\end{center}
+\par First and foremost, I would like to thank to my thesis supervisor Ersan Ocak for his continuous patience, support, encouragement and immense knowledge that he shared with me through the entire process. I cannot imagine having a better advisor for both this written thesis and the project I conducted. I also would like to thank the rest of my thesis committee; Mehmet Yılmaz and Ekin Kılıç for their motivation and insightful comments.
+\clearpage
+%........................................
+
+
+%****************************************
+% TABLE OF CONTENTS
+\addcontentsline{toc}{chapter}{Table of Contents}
 
 \setcounter{secnumdepth}{3}
 \setcounter{tocdepth}{3}
-\tableofcontents
 
+\renewcommand{\cftchapleader}{\cftdotfill{\cftdotsep}} % dots for chapters
+\renewcommand{\cfttoctitlefont}{\normalfont\MakeUppercase\hfil}
+\renewcommand\cftchapfont{\mdseries}
+\renewcommand\cftchappagefont{\mdseries}
+\renewcommand{\cftchappresnum}{Chapter\space}
+\renewcommand{\cftchapaftersnum}{:}
+
+\setlength{\cftbeforetoctitleskip}{25mm}
+\setlength{\cftaftertoctitleskip}{3\baselineskip}
+\setlength{\cftchapnumwidth}{5em}
+%\addtolength{\cftchapnumwidth}{\cftchappresnum\cftchapaftersnum}
+
+\begin{singlespace}
+\tableofcontents
+\end{singlespace}
+\clearpage
+%........................................
+
+
+%****************************************
+% LIST OF FIGURES
 \addcontentsline{toc}{chapter}{List of Figures}
+
+\renewcommand{\cftloftitlefont}{\normalfont\MakeUppercase\hfil}
+\renewcommand{\cftfigaftersnum}{.}
+
+\setlength{\cftbeforeloftitleskip}{25mm}
+\setlength{\cftafterloftitleskip}{3\baselineskip}
+
+\begin{singlespace}
 \listoffigures
+\end{singlespace}
+\clearpage
 %{%
 %\let\oldnumberline\numberline%
 %\renewcommand{\numberline}{\figurename~\oldnumberline}%
 %\listoffigures%
 %}
+%........................................
 
+
+%****************************************
+% LIST OF FIGURES
+%\addcontentsline{toc}{chapter}{List of Tables}
 %\listoftables
-\listoftodos
+%........................................
+
+%\listoftodos
 
 \pagenumbering{arabic}
+
+
+%****************************************
+% CHAPTERS
 \include{chapter1_reduced}
 \include{chapter2_reduced}
 \include{chapter3_reduced}
 \include{chapter4_reduced}
 \include{chapter5}
+%........................................
 
+
+%****************************************
+% BIBLIOGRAPHY
 \addcontentsline{toc}{chapter}{Bibliography}
 \bibliographystyle{apacite}
+\begin{singlespace}
+\setlength{\bibsep}{2\itemsep}
 \bibliography{literature}
+\end{singlespace}
+\clearpage
+%........................................
+
+
+%****************************************
+% APENDICES
 \begin{appendices}
 \include{appendix_glossary}
 \end{appendices}
+%........................................
+
 
 \end{document}
