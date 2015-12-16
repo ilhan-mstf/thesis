@@ -145,14 +145,14 @@
   publisher	= {Sage Publications}
 }
 @article{gregson2007identity,
-  title		= {Identity, mobility and the throwaway society.},
-  author	= {Gregson, Nicky and Metcalfe, Alan and Crewe, Louise},
-  journal	= {Environment and planning D: society and space.},
-  volume	= {25},
-  number	= {4},
-  pages		= {682--700},
-  year		= {2007},
-  publisher	= {Pion}
+  title={Identity, mobility and the throwaway society.},
+  author={Gregson, Nicky and Metcalfe, Alan and Crewe, Louise},
+  journal={Environment and planning D: society and space.},
+  volume={25},
+  number={4},
+  pages={682--700},
+  year={2007},
+  publisher={Pion}
 }
 
 @book{cerny1996recycled,
