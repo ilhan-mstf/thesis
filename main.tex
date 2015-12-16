@@ -4,7 +4,7 @@
 \usepackage[utf8]{inputenc}
 \usepackage[turkish,english,shorthands=:!]{babel}
 \usepackage{apacite}
-\usepackage[a4paper,width=155mm,top=25mm,bottom=25mm]{geometry}
+\usepackage[a4paper,left=40mm,right=25mm,top=25mm,bottom=25mm]{geometry}
 \usepackage{epigraph}
 \usepackage{graphicx}
 %\graphicspath{ {graphics/} }
@@ -19,9 +19,31 @@
 %\usepackage{chngcntr}
 %\counterwithout{figure}{chapter}
 
-\usepackage{setspace}
-\doublespacing
+%\usepackage{setspace}
+%\doublespacing
 
+\usepackage[doublespacing]{setspace}
+
+\usepackage{natbib}
+\setlength{\bibsep}{0.0pt}
+
+% Adding extra space between paragraphs
+\setlength{\parskip}{\baselineskip}
+
+% To align left todos
+\reversemarginpar
+
+% Chapter titles
+\usepackage{titlesec}
+\titleformat{\chapter}[display]
+        {\normalfont\fontsize{14pt}{12pt}\centering\bfseries}{\MakeUppercase{\chaptertitlename}\  \thechapter}{2\baselineskip}{\uppercase}
+\titleformat*{\section}{\bfseries\fontsize{12pt}{12pt}}
+\titleformat*{\subsection}{\bfseries\fontsize{12pt}{12pt}}
+
+% Chapter title spacing
+\titlespacing{\chapter}{0pt}{25mm}{3\baselineskip}
+
+% EPIGRAPH
 \setlength{\epigraphwidth}{.6\textwidth}
 \setlength{\epigraphrule}{0pt}
 
@@ -40,8 +62,13 @@
 \providecommand{\comment}[1]{\textcolor{cyan}{#1}}
 \providecommand{\summary}[1]{\textcolor{blue}{[#1]}}
 \providecommand{\paraphrase}[1]{\textcolor{magenta}{\quotes{#1}}}
-\renewcommand*\bibname{Bibliography}
 
+\addto\captionsenglish{%
+  \renewcommand{\contentsname}{\MakeUppercase{Table of Contents}}%
+  \renewcommand{\listtablename}{\MakeUppercase{List of Tables}}%
+  \renewcommand{\listfigurename}{\MakeUppercase{List of Figures}}%
+  \renewcommand{\bibname}{\MakeUppercase{Bibliography}}%
+}
 
 %****************************************
 % Title Ideas for Thesis 
@@ -55,17 +82,20 @@
 
 \begin{document}
 \selectlanguage{english}
+
 \begin{titlepage}
     \begin{center}
         
-        \Huge
-        Transforming Trash as an Artistic Act
+        \singlespacing
         
-        \vfill
-        \Large
+        \vspace*{25mm}
+        \uppercase{Transforming Trash as an Artistic Act}
+        
+        \vspace{15mm}
         A Master’s Thesis\\
+        \vspace{15mm}
         by\\
-        Mustafa İlhan
+        MUSTAFA İLHAN
         
         \vfill
         Department of\\
@@ -73,6 +103,39 @@
         İhsan Doğramacı Bilkent University\\
         Ankara\\
         \today
+        \vspace{25mm}
+        
+    \end{center}
+\end{titlepage}
+
+\begin{titlepage}
+    \begin{center}
+        
+        \singlespacing
+        
+        \vspace*{25mm}
+        TRANSFORMING TRASH AS AN ARTISTIC ACT\\
+        TRANSFORMING TRASH AS AN ARTISTIC ACT\\
+        \vspace*{4\baselineskip}
+        Graduate School of Economics and Social Sciences\\
+        of\\
+		İhsan Doğramacı Bilkent University\\
+		\vspace*{3\baselineskip}
+        by\\
+       	\vspace*{3\baselineskip}
+        MUSTAFA İLHAN\\
+        \vspace*{4\baselineskip}
+        In Partial Fulfilment of the Requirements for the Degree of\\
+		MASTER FINE OF ARTS\\
+        \vspace{2\baselineskip}
+        in\\
+        \vspace{2\baselineskip}
+        THE DEPARTMENT OF\\
+        COMMUNICATION AND DESIGN\\
+       	İHSAN DOĞRAMACI BİLKENT UNIVERSITY\\
+        ANKARA\\
+        \vspace{\baselineskip}
+        January 2016
         
     \end{center}
 \end{titlepage}
@@ -120,6 +183,7 @@ Tez dahilinde geliştirilen proje için insanlar örgütlenerek farklı mekanlar
 \setcounter{tocdepth}{3}
 \tableofcontents
 
+\addcontentsline{toc}{chapter}{List of Figures}
 \listoffigures
 %{%
 %\let\oldnumberline\numberline%
@@ -136,6 +200,8 @@ Tez dahilinde geliştirilen proje için insanlar örgütlenerek farklı mekanlar
 \include{chapter3_reduced}
 \include{chapter4_reduced}
 \include{chapter5}
+
+\addcontentsline{toc}{chapter}{Bibliography}
 \bibliographystyle{apacite}
 \bibliography{literature}
 \begin{appendices}
