@@ -18,6 +18,7 @@
 \usepackage[doublespacing]{setspace}
 \usepackage{tocloft}
 
+% Figure and Table counters
 \usepackage{chngcntr}
 \counterwithout{figure}{chapter}
 \counterwithout{table}{chapter}
@@ -213,6 +214,7 @@ Director\\
 %****************************************
 % ENGLISH ABSTRACT
 \thispagestyle{plain}
+\phantomsection
 \addcontentsline{toc}{chapter}{ABSTRACT}
 \doublespacing
 \begin{center}
@@ -242,6 +244,7 @@ Within this framework, thesis project argues that it is possible to see the proc
 % TURKISH ABSTRACT
 \thispagestyle{plain}
 \selectlanguage{turkish}
+\phantomsection
 \addcontentsline{toc}{chapter}{ÖZET}
 \doublespacing
 \begin{center}
@@ -277,6 +280,7 @@ Tez dahilinde geliştirilen proje için insanlar örgütlenerek farklı mekanlar
 %****************************************
 % ACKNOWLEDGMENTS
 \thispagestyle{plain}
+\phantomsection
 \addcontentsline{toc}{chapter}{ACKNOWLEDGMENTS}
 \doublespacing
 \begin{center}
@@ -291,7 +295,8 @@ Tez dahilinde geliştirilen proje için insanlar örgütlenerek farklı mekanlar
 
 %****************************************
 % TABLE OF CONTENTS
-\addcontentsline{toc}{chapter}{Table of Contents}
+\phantomsection
+\addcontentsline{toc}{chapter}{TABLE OF CONTENTS}
 
 \setcounter{secnumdepth}{3}
 \setcounter{tocdepth}{3}
@@ -300,12 +305,12 @@ Tez dahilinde geliştirilen proje için insanlar örgütlenerek farklı mekanlar
 \renewcommand{\cfttoctitlefont}{\normalfont\MakeUppercase\hfil}
 \renewcommand\cftchapfont{\mdseries}
 \renewcommand\cftchappagefont{\mdseries}
-\renewcommand{\cftchappresnum}{Chapter\space}
+\renewcommand{\cftchappresnum}{CHAPTER\space}
 \renewcommand{\cftchapaftersnum}{:}
 
 \setlength{\cftbeforetoctitleskip}{25mm}
 \setlength{\cftaftertoctitleskip}{3\baselineskip}
-\setlength{\cftchapnumwidth}{5em}
+\setlength{\cftchapnumwidth}{7em}
 %\addtolength{\cftchapnumwidth}{\cftchappresnum\cftchapaftersnum}
 
 \begin{singlespace}
@@ -317,7 +322,8 @@ Tez dahilinde geliştirilen proje için insanlar örgütlenerek farklı mekanlar
 
 %****************************************
 % LIST OF FIGURES
-\addcontentsline{toc}{chapter}{List of Figures}
+\phantomsection
+\addcontentsline{toc}{chapter}{LIST OF FIGURES}
 
 \renewcommand{\cftloftitlefont}{\normalfont\MakeUppercase\hfil}
 \renewcommand{\cftfigaftersnum}{.}
@@ -338,8 +344,9 @@ Tez dahilinde geliştirilen proje için insanlar örgütlenerek farklı mekanlar
 
 
 %****************************************
-% LIST OF FIGURES
-%\addcontentsline{toc}{chapter}{List of Tables}
+% LIST OF TABLES
+%\phantomsection
+%\addcontentsline{toc}{chapter}{LIST OF TABLES}
 %\listoftables
 %........................................
 
@@ -360,7 +367,9 @@ Tez dahilinde geliştirilen proje için insanlar örgütlenerek farklı mekanlar
 
 %****************************************
 % BIBLIOGRAPHY
-\addcontentsline{toc}{chapter}{Bibliography}
+\nocite{*} % Add all references
+\phantomsection
+\addcontentsline{toc}{chapter}{BIBLIOGRAPHY}
 \bibliographystyle{apacite}
 \begin{singlespace}
 \setlength{\bibsep}{2\itemsep}
@@ -373,7 +382,10 @@ Tez dahilinde geliştirilen proje için insanlar örgütlenerek farklı mekanlar
 %****************************************
 % APENDICES
 \begin{appendices}
+\addtocontents{toc}{\protect\setcounter{tocdepth}{0}}
 \include{appendix_glossary}
+\include{appendix_materials}
+\include{appendix_project}
 \end{appendices}
 %........................................
 
