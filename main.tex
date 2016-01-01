@@ -23,11 +23,18 @@
 \counterwithout{figure}{chapter}
 \counterwithout{table}{chapter}
 
+% Bibliography line spacing
 \usepackage{natbib}
 \setlength{\bibsep}{0.0pt}
 
+% Footnote line spacing
+\setlength{\footnotesep}{\baselineskip}
+
 % Adding extra space between paragraphs
 \setlength{\parskip}{\baselineskip}
+
+% Quote spacing
+\expandafter\def\expandafter\quote\expandafter{\quote\singlespacing}
 
 % To align left todos
 \reversemarginpar
@@ -42,10 +49,11 @@
 % Chapter title spacing
 \titlespacing{\chapter}{0pt}{25mm}{3\baselineskip}
 
-% EPIGRAPH
+% Epigraph setup
 \setlength{\epigraphwidth}{.65\textwidth}
 \setlength{\epigraphrule}{0pt}
 
+% PDF setup
 \hypersetup{
     pdftitle			= {MFA Thesis},
     pdfauthor			= {Mustafa ilhan},
@@ -56,6 +64,7 @@
     pdfpagemode			= UseOutlines
 }
 
+% Utilities
 \providecommand{\quotes}[1]{``#1''}
 \providecommand{\singlequotes}[1]{`#1'}
 \providecommand{\comment}[1]{\textcolor{cyan}{#1}}
@@ -331,6 +340,10 @@ Lastly and mostly, I would like to thank my family for their love, trust and sup
 \setlength{\cftchapnumwidth}{7em}
 %\addtolength{\cftchapnumwidth}{\cftchappresnum\cftchapaftersnum}
 
+% Spacing between items
+\setlength{\cftbeforesecskip}{\cftbeforechapskip}
+\setlength{\cftbeforesubsecskip}{\cftbeforechapskip}
+
 \begin{singlespace}
 \tableofcontents
 \end{singlespace}
@@ -343,21 +356,36 @@ Lastly and mostly, I would like to thank my family for their love, trust and sup
 \phantomsection
 \addcontentsline{toc}{chapter}{LIST OF FIGURES}
 
+% Spacing between items
+\makeatletter
+\def\@chapter[#1]#2{\ifnum \c@secnumdepth >\m@ne
+	\refstepcounter{chapter}%
+	\typeout{\@chapapp\space\thechapter.}%
+	\addcontentsline{toc}{chapter}%
+	{\protect\numberline{\thechapter}#1}%
+	\else
+	\addcontentsline{toc}{chapter}{#1}%
+	\fi
+	\chaptermark{#1}%
+	\if@twocolumn
+	\@topnewpage[\@makechapterhead{#2}]%
+	\else
+	\@makechapterhead{#2}%
+	\@afterheading
+	\fi}
+\makeatother
+
 \renewcommand{\cftloftitlefont}{\normalfont\MakeUppercase\hfil}
 \renewcommand{\cftfigaftersnum}{.}
 
 \setlength{\cftbeforeloftitleskip}{25mm}
 \setlength{\cftafterloftitleskip}{3\baselineskip}
+\setlength{\cftbeforefigskip}{\cftbeforechapskip}
 
 \begin{singlespace}
 \listoffigures
 \end{singlespace}
 \clearpage
-%{%
-%\let\oldnumberline\numberline%
-%\renewcommand{\numberline}{\figurename~\oldnumberline}%
-%\listoffigures%
-%}
 %........................................
 
 
@@ -399,12 +427,13 @@ Lastly and mostly, I would like to thank my family for their love, trust and sup
 
 %****************************************
 % APENDICES
-\begin{appendices}
-\addtocontents{toc}{\protect\setcounter{tocdepth}{0}}
+\appendix
+\section*{Appendices}
+\addcontentsline{toc}{chapter}{APPENDICES}
+\renewcommand{\thesection}{\Alph{section}}
 \include{appendix_glossary}
 \include{appendix_materials}
 \include{appendix_project}
-\end{appendices}
 %........................................
 
 
