@@ -12,12 +12,18 @@
 \usepackage{subcaption}
 \usepackage{wrapfig}
 \usepackage[usenames,dvipsnames]{color}
-\usepackage[titletoc,title]{appendix}
+\usepackage[page,titletoc,title]{appendix}
 \usepackage[colorinlistoftodos]{todonotes}
 \usepackage{afterpage}
 \usepackage[doublespacing]{setspace}
 \usepackage{tocloft}
 \usepackage{url}
+\usepackage{indentfirst}
+
+% Turning off all figures
+% Remove the next two lines if you want the figures at their place    
+\usepackage[figuresonly,nolists,nomarkers]{endfloat}
+\renewcommand{\processdelayedfloats}{}
 
 % Bold captions
 \captionsetup{labelfont=bf}
@@ -30,6 +36,19 @@
 \counterwithout{figure}{chapter}
 \counterwithout{table}{chapter}
 
+% Footnote line spacing
+\setlength{\footnotesep}{\baselineskip}
+
+% Adding extra space between paragraphs
+\setlength{\parskip}{0.5\baselineskip}
+
+% To align left todos
+%\reversemarginpar
+
+
+%****************************************
+% BIBLIOGRAPHY
+
 % Bibliography line spacing
 \usepackage{natbib}
 \setlength{\bibsep}{0.0pt}
@@ -40,25 +59,29 @@
 \renewcommand{\BBCP}{}
 }
 
-\usepackage{etoolbox}
-\makeatletter
-\AtBeginEnvironment{quote}{\appto\@listi{\parsep\z@ \topsep\z@ \itemsep\z@}}
-\makeatother
-
 % Adding ":" character before page number
 \bibpunct[: ]{(}{)}{:}{a}{,}{~}
+%........................................
 
-% Footnote line spacing
-\setlength{\footnotesep}{\baselineskip}
 
-% Adding extra space between paragraphs
-\setlength{\parskip}{\baselineskip}
+%****************************************
+% BLOCK QUOTES
 
-% Quote spacing
+% Spaces before and after block quotes
+\usepackage{etoolbox}
+\AtBeginEnvironment{quote}{\vspace{-\baselineskip}}
+\AtEndEnvironment{quote}{\vspace{-\baselineskip}}
+
+% Spaces before and after block quotes, indentation
+\renewcommand{\quote}{\list{}{\rightmargin=4em\leftmargin=4em}\item\relax}
+
+% Spacing
 \expandafter\def\expandafter\quote\expandafter{\quote\singlespacing}
+%........................................
 
-% To align left todos
-\reversemarginpar
+
+%****************************************
+% CHAPTERS
 
 % Chapter titles
 \usepackage{titlesec}
@@ -72,9 +95,24 @@
 % Bibliography title spacing
 \titlespacing*{name=\chapter,numberless}{0pt}{12mm}{4\baselineskip}
 
+% RENAMING CHAPTER TITLES
+\addto\captionsenglish{%
+  \renewcommand{\contentsname}{\MakeUppercase{Table of Contents}}%
+  \renewcommand{\listtablename}{\MakeUppercase{List of Tables}}%
+  \renewcommand{\listfigurename}{\MakeUppercase{List of Figures}}%
+  \renewcommand{\bibname}{\MakeUppercase{Select Bibliography}}%
+}
+%........................................
+
+
+%****************************************
+% EPIGRAPH
+
 % Epigraph setup
 \setlength{\epigraphwidth}{.65\textwidth}
 \setlength{\epigraphrule}{0pt}
+%........................................
+
 
 % PDF setup
 \hypersetup{
@@ -87,20 +125,13 @@
     pdfpagemode			= UseOutlines
 }
 
+
 % Utilities
 \providecommand{\quotes}[1]{``#1''}
 \providecommand{\singlequotes}[1]{`#1'}
 \providecommand{\comment}[1]{\textcolor{cyan}{#1}}
 \providecommand{\summary}[1]{\textcolor{blue}{[#1]}}
 \providecommand{\paraphrase}[1]{\textcolor{magenta}{\quotes{#1}}}
-
-% RENAMING CHAPTER TITLES
-\addto\captionsenglish{%
-  \renewcommand{\contentsname}{\MakeUppercase{Table of Contents}}%
-  \renewcommand{\listtablename}{\MakeUppercase{List of Tables}}%
-  \renewcommand{\listfigurename}{\MakeUppercase{List of Figures}}%
-  \renewcommand{\bibname}{\MakeUppercase{Select Bibliography}}%
-}
 
 
 %****************************************
@@ -204,7 +235,8 @@ To my family and for those who embrace trash
 % APPROVAL PAGE
 \clearpage
 \thispagestyle{empty}
-\singlespacing
+%\singlespacing
+%\doublespacing
 \noindent I certify that I have read this thesis and have found that it is fully adequate, in scope and in quality, as a thesis for the degree of Master of Fine Arts in Media and Design.\\
 
 \noindent---------------------------------\\
@@ -250,7 +282,7 @@ Director\\
     \vspace{\baselineskip}
     January 2016
 \end{center}
-\singlespacing
+%\singlespacing
 \par Usage of non-art objects in the artworks can be traced back to the beginning of 20th century. This approach has broken the existing rules and extended the language of art in an unprecedented way. After that point, trash has found a place in the work of artists.
 
 The purpose of this study is to discuss usage of trash in the context of art. The role of art is questioned in the transformation of discarded items. This thesis follows the discussions on the place of trash in culture and theories of trash. Then approaches and methodologies of artists who use discarded materials in their works are explored. It is questioned that why and how they use discarded materials and how their artworks can be understood regarding theoretical and cultural aspects.
@@ -280,7 +312,7 @@ Within this framework, thesis project argues that it is possible to see the proc
     \vspace{\baselineskip}
     Ocak 2016
 \end{center}
-\singlespacing
+%\singlespacing
 \par Sanat işlerinde sanat dışı nesnenin kullanımı 20. yüzyılın başına kadar takip edilebilmektedir. Bu yaklaşım var olan kuralları yıkmış ve sanatın dilini eşi görülmemiş bir biçimde genişletmiştir. Bu noktadan sonra atık sanatçıların işlerinde yer bulmuştur.
 
 Bu çalışmanın amacı sanatsal bağlamda atığın kullanımını tartışmaktır. Atık ürünlerin dönüştürülmesinde sanatın rolü işlerinde atık maddeleri kullanan sanatçıların yaklaşımları ve yöntemleri üzerinden sorgulanmıştır. Çöpün kültürel ve kuramsal olarak nasıl ele alındığı araştırılmıştır. Sanatçıların neden ve nasıl atık malzemeleri kullandıkları ve işlerinin kültürel ve kuramsal açılardan nasıl anlaşılabileceği sorgulanmıştır.
@@ -423,9 +455,6 @@ Lastly and mostly, I would like to thank my family for their love, trust and sup
 %........................................
 
 
-% TODO yıl olayını düzeltmeli
-% Bibliographyden sonra 4 boşluk olmalı?
-
 %****************************************
 % BIBLIOGRAPHY
 \nocite{*} % Add all references
@@ -442,21 +471,21 @@ Lastly and mostly, I would like to thank my family for their love, trust and sup
 
 %****************************************
 % APENDICES
-%\appendix
+\appendix
+\phantomsection
+\addtocontents{toc}{\cftpagenumbersoff{chapter}} 
+\chapter*{APPENDICES}
+\addtocontents{toc}{\protect\contentsline {chapter}{APPENDICES}{}{}}
 
-%\addtocontents{toc}{\cftpagenumbersoff{chapter}} 
-%\chapter*{APPENDICES}
-%\addtocontents{toc}{\protect\contentsline {chapter}{APPENDICES}{}{}}
+\addtocontents{toc}{\cftpagenumberson{chapter}} 
 
-%\addtocontents{toc}{\cftpagenumberson{chapter}} 
-
-%\makeatletter
-%\addtocontents{toc}{\let\protect\l@chapter\protect\l@section}
-%\makeatother
+\makeatletter
+\addtocontents{toc}{\let\protect\l@chapter\protect\l@section}
+\makeatother
 
 %\include{appendix_glossary}
-%\include{appendix_materials}
-%\include{appendix_project}
+\include{appendix_materials}
+\include{appendix_project}
 %........................................
 
 
