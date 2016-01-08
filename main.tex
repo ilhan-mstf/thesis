@@ -4,7 +4,7 @@
 \usepackage[utf8]{inputenc}
 \usepackage[turkish,english,shorthands=:!]{babel}
 \usepackage{apacite}
-\usepackage[a4paper,left=40.1mm,top=24.1mm,right=25.1mm,bottom=36mm]{geometry}
+\usepackage[a4paper,left=40.2mm,top=24.2mm,right=25.2mm,bottom=36mm]{geometry}
 \usepackage{epigraph}
 \usepackage{graphicx}
 \usepackage{float}
@@ -18,6 +18,9 @@
 \usepackage[doublespacing]{setspace}
 \usepackage{tocloft}
 \usepackage{url}
+
+% Bold captions
+\captionsetup{labelfont=bf}
 
 % Same fonts for URL
 \AtBeginDocument{\urlstyle{APACsame}}
@@ -37,6 +40,11 @@
 \renewcommand{\BBCP}{}
 }
 
+\usepackage{etoolbox}
+\makeatletter
+\AtBeginEnvironment{quote}{\appto\@listi{\parsep\z@ \topsep\z@ \itemsep\z@}}
+\makeatother
+
 % Adding ":" character before page number
 \bibpunct[: ]{(}{)}{:}{a}{,}{~}
 
@@ -55,12 +63,14 @@
 % Chapter titles
 \usepackage{titlesec}
 \titleformat{\chapter}[display]
-        {\normalfont\fontsize{14pt}{12pt}\centering\bfseries}{\MakeUppercase{\chaptertitlename}\  \thechapter}{2\baselineskip}{\uppercase}
+        {\normalfont\fontsize{14pt}{14pt}\centering\bfseries}{\MakeUppercase{\chaptertitlename}\  \thechapter}{2\baselineskip}{\uppercase}
 \titleformat*{\section}{\bfseries\fontsize{12pt}{12pt}}
 \titleformat*{\subsection}{\bfseries\fontsize{12pt}{12pt}}
 
 % Chapter title spacing
 \titlespacing{\chapter}{0pt}{9mm}{3\baselineskip}
+% Bibliography title spacing
+\titlespacing*{name=\chapter,numberless}{0pt}{12mm}{4\baselineskip}
 
 % Epigraph setup
 \setlength{\epigraphwidth}{.65\textwidth}
@@ -230,8 +240,8 @@ Director\\
 \addcontentsline{toc}{chapter}{ABSTRACT}
 \doublespacing
 \begin{center}
-	\vspace*{7mm}
-	\MakeUppercase{Abstract}\\
+	\vspace*{8mm}
+	{\fontsize{14pt}{14pt}\selectfont \textbf{\MakeUppercase{Abstract}}}\\
     \vspace{\baselineskip}
     TRANSFORMING TRASH AS AN ARTISTIC ACT\\
     İlhan, Mustafa\\
@@ -260,8 +270,8 @@ Within this framework, thesis project argues that it is possible to see the proc
 \addcontentsline{toc}{chapter}{ÖZET}
 \doublespacing
 \begin{center}
-	\vspace*{9mm}
-	\MakeUppercase{Özet}\\
+	\vspace*{8.5mm}
+	{\fontsize{14pt}{14pt}\selectfont \textbf{\MakeUppercase{Özet}}}\\
     \vspace{\baselineskip}
     \MakeUppercase{Sanatsal Bir Eylem Olarak Atığı Dönüştürme}\\
     İlhan, Mustafa\\
@@ -302,8 +312,8 @@ Bu çerçevede, tez projesi atığı dönüştürme sürecinin bir sanatsal eyle
 \addcontentsline{toc}{chapter}{ACKNOWLEDGMENTS}
 \doublespacing
 \begin{center}
-	\vspace*{7mm}
-	\MakeUppercase{ACKNOWLEDGMENTS}\\
+	\vspace*{8mm}
+	{\fontsize{14pt}{14pt}\selectfont \textbf{\MakeUppercase{ACKNOWLEDGMENTS}}}\\
     \vspace{3\baselineskip}
 \end{center}
 \par First and foremost, I would like to thank to my thesis supervisor Assist. Prof. Dr. Ersan Ocak for his endless patience, support and encouragement through the whole progress. He contributed in every way he can and guided me through the development of this thesis with his immense knowledge. I also would like to thank the rest of my thesis committee; Prof. Dr. Mehmet Yılmaz and Instructor Ekin Kılıç for their valuable contributions and insightful comments on the issues of this thesis.
@@ -332,13 +342,13 @@ Lastly and mostly, I would like to thank my family for their love, trust and sup
 \setcounter{tocdepth}{3}
 
 \renewcommand{\cftchapleader}{\cftdotfill{\cftdotsep}} % dots for chapters
-\renewcommand{\cfttoctitlefont}{\normalfont\MakeUppercase\hfil}
+\renewcommand{\cfttoctitlefont}{\MakeUppercase\hfil\bfseries\fontsize{14pt}{14pt}\selectfont}
 \renewcommand\cftchapfont{\mdseries}
 \renewcommand\cftchappagefont{\mdseries}
 \renewcommand{\cftchappresnum}{CHAPTER\space}
 \renewcommand{\cftchapaftersnum}{:}
 
-\setlength{\cftbeforetoctitleskip}{19mm}
+\setlength{\cftbeforetoctitleskip}{20mm}
 \setlength{\cftaftertoctitleskip}{3\baselineskip}
 \setlength{\cftchapnumwidth}{7em}
 %\addtolength{\cftchapnumwidth}{\cftchappresnum\cftchapaftersnum}
@@ -378,10 +388,10 @@ Lastly and mostly, I would like to thank my family for their love, trust and sup
 	\fi}
 \makeatother
 
-\renewcommand{\cftloftitlefont}{\normalfont\MakeUppercase\hfil}
+\renewcommand{\cftloftitlefont}{\MakeUppercase\hfil\bfseries\fontsize{14pt}{14pt}\selectfont}
 \renewcommand{\cftfigaftersnum}{.}
 
-\setlength{\cftbeforeloftitleskip}{19mm}
+\setlength{\cftbeforeloftitleskip}{20mm}
 \setlength{\cftafterloftitleskip}{3\baselineskip}
 \setlength{\cftbeforefigskip}{\cftbeforechapskip}
 
