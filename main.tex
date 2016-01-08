@@ -4,7 +4,7 @@
 \usepackage[utf8]{inputenc}
 \usepackage[turkish,english,shorthands=:!]{babel}
 \usepackage{apacite}
-\usepackage[a4paper,left=40mm,right=25mm,top=25mm,bottom=25mm]{geometry}
+\usepackage[a4paper,left=40.1mm,top=24.1mm,right=25.1mm,bottom=36mm]{geometry}
 \usepackage{epigraph}
 \usepackage{graphicx}
 \usepackage{float}
@@ -27,6 +27,15 @@
 \usepackage{natbib}
 \setlength{\bibsep}{0.0pt}
 
+\usepackage{xpatch}
+
+\xpatchbibmacro{date+extrayear}{%
+  \printtext[parens]%
+}{%
+  \setunit*{\addperiod\space}%
+  \printtext%
+}{}{} 
+
 % Footnote line spacing
 \setlength{\footnotesep}{\baselineskip}
 
@@ -47,7 +56,7 @@
 \titleformat*{\subsection}{\bfseries\fontsize{12pt}{12pt}}
 
 % Chapter title spacing
-\titlespacing{\chapter}{0pt}{25mm}{3\baselineskip}
+\titlespacing{\chapter}{0pt}{9mm}{3\baselineskip}
 
 % Epigraph setup
 \setlength{\epigraphwidth}{.65\textwidth}
@@ -79,15 +88,6 @@
   \renewcommand{\bibname}{\MakeUppercase{Bibliography}}%
 }
 
-%****************************************
-% Title Ideas for Thesis 
-% - Trash as an Artistic Medium
-% - Notebooks from Trash: Trash in the Context of Art
-% - Notebooks from Trash: Exploring the potential of trash through art practice
-% - Transforming Trash as an Artistic Act
-% - Act of Transforming Trash in the Context of Art
-%........................................
-
 
 %****************************************
 % BEGIN
@@ -103,12 +103,11 @@
         
         \singlespacing
         
-        \vspace*{25mm}
-        \uppercase{Transforming Trash as an Artistic Act}
-        
-        \vspace{15mm}
+        \vspace*{20mm}
+        \uppercase{Transforming Trash as an Artistic Act}\\
+        \vspace*{3\baselineskip}
         A Master’s Thesis\\
-        \vspace{15mm}
+        \vspace*{3\baselineskip}
         by\\
         MUSTAFA İLHAN
         
@@ -118,7 +117,7 @@
         İhsan Doğramacı Bilkent University\\
         Ankara\\
         January 2016
-        \vspace{25mm}
+        \vspace*{28mm}
         
     \end{center}
 \end{titlepage}
@@ -166,16 +165,16 @@ To my family and for those who embrace trash
         Graduate School of Economics and Social Sciences\\
         of\\
 		İhsan Doğramacı Bilkent University\\
-		\vspace*{3\baselineskip}
+		\vspace*{2\baselineskip}
         by\\
-       	\vspace*{3\baselineskip}
+       	\vspace*{2\baselineskip}
         MUSTAFA İLHAN\\
-        \vspace*{4\baselineskip}
+        \vspace*{3\baselineskip}
         In Partial Fulfilment of the Requirements for the Degree of\\
-		MASTER FINE OF ARTS\\
-        \vspace{2\baselineskip}
+		MASTER OF FINE ARTS\\
+        \vspace{\baselineskip}
         in\\
-        \vspace{2\baselineskip}
+        \vspace{\baselineskip}
         THE DEPARTMENT OF\\
         COMMUNICATION AND DESIGN\\
        	İHSAN DOĞRAMACI BİLKENT UNIVERSITY\\
@@ -227,7 +226,7 @@ Director\\
 \addcontentsline{toc}{chapter}{ABSTRACT}
 \doublespacing
 \begin{center}
-	\vspace*{25mm}
+	\vspace*{7mm}
 	\MakeUppercase{Abstract}\\
     \vspace{\baselineskip}
     TRANSFORMING TRASH AS AN ARTISTIC ACT\\
@@ -257,7 +256,7 @@ Within this framework, thesis project argues that it is possible to see the proc
 \addcontentsline{toc}{chapter}{ÖZET}
 \doublespacing
 \begin{center}
-	\vspace*{25mm}
+	\vspace*{9mm}
 	\MakeUppercase{Özet}\\
     \vspace{\baselineskip}
     \MakeUppercase{Sanatsal Bir Eylem Olarak Atığı Dönüştürme}\\
@@ -299,7 +298,7 @@ Bu çerçevede, tez projesi atığı dönüştürme sürecinin bir sanatsal eyle
 \addcontentsline{toc}{chapter}{ACKNOWLEDGMENTS}
 \doublespacing
 \begin{center}
-	\vspace*{25mm}
+	\vspace*{7mm}
 	\MakeUppercase{ACKNOWLEDGMENTS}\\
     \vspace{3\baselineskip}
 \end{center}
@@ -335,7 +334,7 @@ Lastly and mostly, I would like to thank my family for their love, trust and sup
 \renewcommand{\cftchappresnum}{CHAPTER\space}
 \renewcommand{\cftchapaftersnum}{:}
 
-\setlength{\cftbeforetoctitleskip}{25mm}
+\setlength{\cftbeforetoctitleskip}{19mm}
 \setlength{\cftaftertoctitleskip}{3\baselineskip}
 \setlength{\cftchapnumwidth}{7em}
 %\addtolength{\cftchapnumwidth}{\cftchappresnum\cftchapaftersnum}
@@ -378,7 +377,7 @@ Lastly and mostly, I would like to thank my family for their love, trust and sup
 \renewcommand{\cftloftitlefont}{\normalfont\MakeUppercase\hfil}
 \renewcommand{\cftfigaftersnum}{.}
 
-\setlength{\cftbeforeloftitleskip}{25mm}
+\setlength{\cftbeforeloftitleskip}{19mm}
 \setlength{\cftafterloftitleskip}{3\baselineskip}
 \setlength{\cftbeforefigskip}{\cftbeforechapskip}
 
@@ -410,6 +409,9 @@ Lastly and mostly, I would like to thank my family for their love, trust and sup
 %........................................
 
 
+% TODO yıl olayını düzeltmeli
+% Bibliographyden sonra 4 boşluk olmalı?
+
 %****************************************
 % BIBLIOGRAPHY
 \nocite{*} % Add all references
@@ -426,21 +428,21 @@ Lastly and mostly, I would like to thank my family for their love, trust and sup
 
 %****************************************
 % APENDICES
-\appendix
+%\appendix
 
-\addtocontents{toc}{\cftpagenumbersoff{chapter}} 
-\chapter*{APPENDICES}
-\addtocontents{toc}{\protect\contentsline {chapter}{APPENDICES}{}{}}
+%\addtocontents{toc}{\cftpagenumbersoff{chapter}} 
+%\chapter*{APPENDICES}
+%\addtocontents{toc}{\protect\contentsline {chapter}{APPENDICES}{}{}}
 
-\addtocontents{toc}{\cftpagenumberson{chapter}} 
+%\addtocontents{toc}{\cftpagenumberson{chapter}} 
 
-\makeatletter
-\addtocontents{toc}{\let\protect\l@chapter\protect\l@section}
-\makeatother
+%\makeatletter
+%\addtocontents{toc}{\let\protect\l@chapter\protect\l@section}
+%\makeatother
 
 %\include{appendix_glossary}
-\include{appendix_materials}
-\include{appendix_project}
+%\include{appendix_materials}
+%\include{appendix_project}
 %........................................
 
 
