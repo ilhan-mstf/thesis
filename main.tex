@@ -12,7 +12,7 @@
 \usepackage{subcaption}
 \usepackage{wrapfig}
 \usepackage[usenames,dvipsnames]{color}
-\usepackage[titletoc]{appendix}
+\usepackage[titletoc,title]{appendix}
 \usepackage[colorinlistoftodos]{todonotes}
 \usepackage{afterpage}
 \usepackage[doublespacing]{setspace}
@@ -396,7 +396,6 @@ Lastly and mostly, I would like to thank my family for their love, trust and sup
 %\listoftables
 %........................................
 
-%\listoftodos
 
 \pagenumbering{arabic}
 
@@ -428,10 +427,18 @@ Lastly and mostly, I would like to thank my family for their love, trust and sup
 %****************************************
 % APENDICES
 \appendix
-\section*{Appendices}
-\addcontentsline{toc}{chapter}{APPENDICES}
-\renewcommand{\thesection}{\Alph{section}}
-\include{appendix_glossary}
+
+\addtocontents{toc}{\cftpagenumbersoff{chapter}} 
+\chapter*{APPENDICES}
+\addtocontents{toc}{\protect\contentsline {chapter}{APPENDICES}{}{}}
+
+\addtocontents{toc}{\cftpagenumberson{chapter}} 
+
+\makeatletter
+\addtocontents{toc}{\let\protect\l@chapter\protect\l@section}
+\makeatother
+
+%\include{appendix_glossary}
 \include{appendix_materials}
 \include{appendix_project}
 %........................................
