@@ -17,6 +17,10 @@
 \usepackage{afterpage}
 \usepackage[doublespacing]{setspace}
 \usepackage{tocloft}
+\usepackage{url}
+
+% Same fonts for URL
+\AtBeginDocument{\urlstyle{APACsame}}
 
 % Figure and Table counters
 \usepackage{chngcntr}
@@ -27,14 +31,14 @@
 \usepackage{natbib}
 \setlength{\bibsep}{0.0pt}
 
-\usepackage{xpatch}
+% Removing parentheses around year in bibliography
+\AtBeginDocument{
+\renewcommand{\BBOP}{}
+\renewcommand{\BBCP}{}
+}
 
-\xpatchbibmacro{date+extrayear}{%
-  \printtext[parens]%
-}{%
-  \setunit*{\addperiod\space}%
-  \printtext%
-}{}{} 
+% Adding ":" character before page number
+\bibpunct[: ]{(}{)}{:}{a}{,}{~}
 
 % Footnote line spacing
 \setlength{\footnotesep}{\baselineskip}
@@ -85,7 +89,7 @@
   \renewcommand{\contentsname}{\MakeUppercase{Table of Contents}}%
   \renewcommand{\listtablename}{\MakeUppercase{List of Tables}}%
   \renewcommand{\listfigurename}{\MakeUppercase{List of Figures}}%
-  \renewcommand{\bibname}{\MakeUppercase{Bibliography}}%
+  \renewcommand{\bibname}{\MakeUppercase{Select Bibliography}}%
 }
 
 
@@ -416,7 +420,7 @@ Lastly and mostly, I would like to thank my family for their love, trust and sup
 % BIBLIOGRAPHY
 \nocite{*} % Add all references
 \phantomsection
-\addcontentsline{toc}{chapter}{BIBLIOGRAPHY}
+\addcontentsline{toc}{chapter}{SELECT BIBLIOGRAPHY}
 \bibliographystyle{apacite}
 \begin{singlespace}
 \setlength{\bibsep}{2\itemsep}
