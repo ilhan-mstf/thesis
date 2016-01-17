@@ -4,15 +4,15 @@
 \usepackage[utf8]{inputenc}
 \usepackage[turkish,english,shorthands=:!]{babel}
 \usepackage{apacite}
-\usepackage[a4paper,left=40.2mm,top=24.2mm,right=25.2mm,bottom=36mm]{geometry}
+\usepackage[a4paper,left=41.2mm,top=25.2mm,right=24.2mm,bottom=35mm]{geometry}
 \usepackage{epigraph}
 \usepackage{graphicx}
 \usepackage{float}
-\usepackage{caption}
-\usepackage{subcaption}
+\usepackage[font={footnotesize,bf}]{caption}
+\usepackage[font={footnotesize,bf}]{subcaption}
 \usepackage{wrapfig}
 \usepackage[usenames,dvipsnames]{color}
-\usepackage[page,titletoc,title]{appendix}
+\usepackage[titletoc,title]{appendix}
 \usepackage[colorinlistoftodos]{todonotes}
 \usepackage{afterpage}
 \usepackage[doublespacing]{setspace}
@@ -24,9 +24,6 @@
 % Remove the next two lines if you want the figures at their place    
 \usepackage[figuresonly,nolists,nomarkers]{endfloat}
 \renewcommand{\processdelayedfloats}{}
-
-% Bold captions
-\captionsetup{labelfont=bf}
 
 % Same fonts for URL
 \AtBeginDocument{\urlstyle{APACsame}}
@@ -91,9 +88,9 @@
 \titleformat*{\subsection}{\bfseries\fontsize{12pt}{12pt}}
 
 % Chapter title spacing
-\titlespacing{\chapter}{0pt}{9mm}{3\baselineskip}
+\titlespacing{\chapter}{0pt}{13mm}{3\baselineskip}
 % Bibliography title spacing
-\titlespacing*{name=\chapter,numberless}{0pt}{12mm}{4\baselineskip}
+\titlespacing*{name=\chapter,numberless}{0pt}{16mm}{4\baselineskip}
 
 % RENAMING CHAPTER TITLES
 \addto\captionsenglish{%
@@ -272,7 +269,7 @@ Director\\
 \addcontentsline{toc}{chapter}{ABSTRACT}
 \doublespacing
 \begin{center}
-	\vspace*{8mm}
+	\vspace*{13mm}
 	{\fontsize{14pt}{14pt}\selectfont \textbf{\MakeUppercase{Abstract}}}\\
     \vspace{\baselineskip}
     TRANSFORMING TRASH AS AN ARTISTIC ACT\\
@@ -302,7 +299,7 @@ Within this framework, thesis project argues that it is possible to see the proc
 \addcontentsline{toc}{chapter}{ÖZET}
 \doublespacing
 \begin{center}
-	\vspace*{8.5mm}
+	\vspace*{13.5mm}
 	{\fontsize{14pt}{14pt}\selectfont \textbf{\MakeUppercase{Özet}}}\\
     \vspace{\baselineskip}
     \MakeUppercase{Sanatsal Bir Eylem Olarak Atığı Dönüştürme}\\
@@ -344,7 +341,7 @@ Bu çerçevede, tez projesi atığı dönüştürme sürecinin bir sanatsal eyle
 \addcontentsline{toc}{chapter}{ACKNOWLEDGMENTS}
 \doublespacing
 \begin{center}
-	\vspace*{8mm}
+	\vspace*{13mm}
 	{\fontsize{14pt}{14pt}\selectfont \textbf{\MakeUppercase{ACKNOWLEDGMENTS}}}\\
     \vspace{3\baselineskip}
 \end{center}
