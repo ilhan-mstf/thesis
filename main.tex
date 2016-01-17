@@ -4,7 +4,7 @@
 \usepackage[utf8]{inputenc}
 \usepackage[turkish,english,shorthands=:!]{babel}
 \usepackage{apacite}
-\usepackage[a4paper,left=41.2mm,top=25.2mm,right=24.2mm,bottom=35mm]{geometry}
+\usepackage[a4paper,left=41.2mm,top=25.2mm,right=24.2mm,bottom=35mm]{geometry} % left: 40mm, top: 25mm, right: 25mm, bottom: 25mm
 \usepackage{epigraph}
 \usepackage{graphicx}
 \usepackage{float}
@@ -13,15 +13,14 @@
 \usepackage{wrapfig}
 \usepackage[usenames,dvipsnames]{color}
 \usepackage[titletoc,title]{appendix}
-\usepackage[colorinlistoftodos]{todonotes}
 \usepackage{afterpage}
 \usepackage[doublespacing]{setspace}
 \usepackage{tocloft}
 \usepackage{url}
 \usepackage{indentfirst}
 
-% Turning off all figures
-% Remove the next two lines if you want the figures at their place    
+% Turning off all figures, required for turnitin upload
+% Remove the next two lines if you want the figures at their place
 \usepackage[figuresonly,nolists,nomarkers]{endfloat}
 \renewcommand{\processdelayedfloats}{}
 
@@ -33,14 +32,16 @@
 \counterwithout{figure}{chapter}
 \counterwithout{table}{chapter}
 
+
+%****************************************
+% SPACING
+
 % Footnote line spacing
 \setlength{\footnotesep}{\baselineskip}
 
 % Adding extra space between paragraphs
 \setlength{\parskip}{0.5\baselineskip}
-
-% To align left todos
-%\reversemarginpar
+%........................................
 
 
 %****************************************
@@ -88,9 +89,9 @@
 \titleformat*{\subsection}{\bfseries\fontsize{12pt}{12pt}}
 
 % Chapter title spacing
-\titlespacing{\chapter}{0pt}{13mm}{3\baselineskip}
+\titlespacing{\chapter}{0pt}{13mm}{3\baselineskip} % Centered, Top: 50mm, Next: 3 line after
 % Bibliography title spacing
-\titlespacing*{name=\chapter,numberless}{0pt}{16mm}{4\baselineskip}
+\titlespacing*{name=\chapter,numberless}{0pt}{16mm}{4\baselineskip} % Centered, Top: 50mm, Next: 4 line after
 
 % RENAMING CHAPTER TITLES
 \addto\captionsenglish{%
@@ -141,9 +142,8 @@
 %****************************************
 % COVER
 \begin{titlepage}
+\singlespacing
     \begin{center}
-        
-        \singlespacing
         
         \vspace*{20mm}
         \uppercase{Transforming Trash as an Artistic Act}\\
@@ -223,6 +223,7 @@ To my family and for those who embrace trash
         ANKARA\\
         \vspace{\baselineskip}
         January 2016
+        
 	\end{center}
 \clearpage
 %........................................
@@ -269,7 +270,7 @@ Director\\
 \addcontentsline{toc}{chapter}{ABSTRACT}
 \doublespacing
 \begin{center}
-	\vspace*{13mm}
+	\vspace*{13mm} % Top: 50mm
 	{\fontsize{14pt}{14pt}\selectfont \textbf{\MakeUppercase{Abstract}}}\\
     \vspace{\baselineskip}
     TRANSFORMING TRASH AS AN ARTISTIC ACT\\
@@ -282,9 +283,9 @@ Director\\
 %\singlespacing
 \par Usage of non-art objects in the artworks can be traced back to the beginning of 20th century. This approach has broken the existing rules and extended the language of art in an unprecedented way. After that point, trash has found a place in the work of artists.
 
-The purpose of this study is to discuss usage of trash in the context of art. The role of art is questioned in the transformation of discarded items. This thesis follows the discussions on the place of trash in culture and theories of trash. Then approaches and methodologies of artists who use discarded materials in their works are explored. It is questioned that why and how they use discarded materials and how their artworks can be understood regarding theoretical and cultural aspects.
+The purpose of this study is to discuss usage of trash in the context of art. This thesis questions the role of art in the transformation of discarded items through the approaches and methods of artists who use discarded materials in their works. It examines why and how artists use discarded materials and how their artworks can be understood regarding theoretical and cultural aspects. This study is supported by theoretical and philosophical ideas about garbage.
 
-Within this framework, thesis project argues that it is possible to see the process of transforming trash as an artistic act. In the scope of the project, discarded papers are collected with the help people and transformed to notebooks. Progress and collected items are recorded on a website. Notebooks are installed in non-conventional locations such as library desks and computer labs in order to invite people to use trash again. 
+Within this framework, thesis project argues that it is possible to see the process of transforming trash as an artistic act. In the scope of the project, discarded papers are collected with the help people and transformed to notebooks. Progress and collected materials are recorded on a website. Notebooks are installed in non-conventional art spaces such as library desks and computer labs that are frequently visited common places in order to invite people to use trash again. 
 
 \noindent Keywords: Transformation of Trash, Trash in Art, Trash as an Art Material.
 \clearpage
@@ -299,7 +300,7 @@ Within this framework, thesis project argues that it is possible to see the proc
 \addcontentsline{toc}{chapter}{ÖZET}
 \doublespacing
 \begin{center}
-	\vspace*{13.5mm}
+	\vspace*{13.5mm} % Top: 50mm
 	{\fontsize{14pt}{14pt}\selectfont \textbf{\MakeUppercase{Özet}}}\\
     \vspace{\baselineskip}
     \MakeUppercase{Sanatsal Bir Eylem Olarak Atığı Dönüştürme}\\
@@ -312,21 +313,21 @@ Within this framework, thesis project argues that it is possible to see the proc
 %\singlespacing
 \par Sanat işlerinde sanat dışı nesnenin kullanımı 20. yüzyılın başına kadar takip edilebilmektedir. Bu yaklaşım var olan kuralları yıkmış ve sanatın dilini eşi görülmemiş bir biçimde genişletmiştir. Bu noktadan sonra atık sanatçıların işlerinde yer bulmuştur.
 
-Bu çalışmanın amacı sanatsal bağlamda atığın kullanımını tartışmaktır. Atık ürünlerin dönüştürülmesinde sanatın rolü işlerinde atık maddeleri kullanan sanatçıların yaklaşımları ve yöntemleri üzerinden sorgulanmıştır. Çöpün kültürel ve kuramsal olarak nasıl ele alındığı araştırılmıştır. Sanatçıların neden ve nasıl atık malzemeleri kullandıkları ve işlerinin kültürel ve kuramsal açılardan nasıl anlaşılabileceği sorgulanmıştır.
+Bu çalışmanın amacı sanatsal bağlamda atığın kullanımını tartışmaktır. Atık ürünlerin dönüştürülmesinde sanatın rolü, işlerinde atık maddeleri kullanan sanatçıların yaklaşımları ve yöntemleri üzerinden sorgulanmaktadır. Sanatçıların neden ve nasıl atık malzemeleri kullandıkları ve işlerinin kültürel ve kuramsal açılardan nasıl anlaşılabileceği araştırılmaktadır. Bu çalışma çöpe dair kuramsal ve felsefi fikirler ile desteklenmektedir.
 
-Bu çerçevede, tez projesi atığı dönüştürme sürecinin bir sanatsal eylem olarak görülebileceğini savunmaktadır. Proje kapsamında atık kağıtlar insanların yardımıyla toplanıp not defterlerine dönüştürülmüştür. Süreç ve toplanan ürünler bir web sitesinde kayıt altına alınmıştır. İnsanların atığı tekrar kullanmaya davet etmek amacıyla defterler sık ziyaret edilen kütüphane, bilgisayar laboratuvarı gibi ortak kullanım alanlarına yerleştirilmiştir.
+Bu çerçevede, tez projesi atığı dönüştürme sürecinin bir sanatsal eylem olarak görülebileceğini savunmaktadır. Proje kapsamında atık kağıtlar insanların yardımıyla toplanıp not defterlerine dönüştürülmüştür. Süreç ve toplanan malzemeler bir web sitesinde kayıt altına alınmıştır. İnsanları atığı tekrar kullanmaya davet etmek amacıyla, defterler geleneksel sanat mekanı olarak kabul edilmeyen kütüphane, bilgisayar laboratuvarı gibi sık ziyaret edilen ortak kullanım alanlarına yerleştirilmiştir.
 
-%\par \comment{Sanatta çöpün yeri incelenip, çöpü dönüştürmenin bir sanatsal eylem olduğu iddia edilmektedir. Ya da en azından proje kapsamında üretilen işin. Ya da bu bağlamda ele alınabileceği iddia edilmektedir.}
+% Sanatta çöpün yeri incelenip, çöpü dönüştürmenin bir sanatsal eylem olduğu iddia edilmektedir. Ya da en azından proje kapsamında üretilen işin. Ya da bu bağlamda ele alınabileceği iddia edilmektedir.
 
 % Bu çalışmanın amacı çöpü dönüştürmenin sanat ve sanatsal eylem bağlamında tartışmaktır. Çöpün kültürel ve kuramsal olarak nasıl ele alındığı(alınabileceği) araştırılmıştır. Çöpü dönüştürmenin nasıl ve ne şekilde mümkün olduğu incelenmiştir. Sanatsal üretim yöntemi olarak çöpü (tercih eden)/(kullanan) sanatçıların yaklaşımları ele alınmıştır. Neden ve nasıl atıkları sanat işlerinde ve eylemlerinde kullandıkları sorgulanmıştır ve bunun toplumsal ve teorik olarak nereye oturduğu/ne anlama geldiği/nasıl anlaşılabileceği incelenmiştir.
 
-%\comment{Tez dahilinde geliştirilen proje ile çöpten dönüştürülerek üretilen defterler ile çöpe bakış açısının dönüştürülmesi amaçlanmıştır. Farklı zaman ve mekanlardan toplanan kağıtlar birbirinden farklı kompozisyonlar oluşturmakta ve endüstriyel defterlere alternatif oluşturmaktadır. Bu defter hakim sistemin dışındaki mekanlarda konulmuştur. (kamusal ortak alan)}
+% Tez dahilinde geliştirilen proje ile çöpten dönüştürülerek üretilen defterler ile çöpe bakış açısının dönüştürülmesi amaçlanmıştır. Farklı zaman ve mekanlardan toplanan kağıtlar birbirinden farklı kompozisyonlar oluşturmakta ve endüstriyel defterlere alternatif oluşturmaktadır. Bu defter hakim sistemin dışındaki mekanlarda konulmuştur. (kamusal ortak alan)
 
-%\comment{Sanat dışı objelerin sanata malzeme olması sanatın dilinde genişlemere olanak vermiştir (ve çöpün sanat işlerinden kullanılması bu bağlamda incelenebilmektedir.). Beraberinde pek çok akım ve üretim biçimini tetiklemiştir. Hem sanatın dili genişledi hem de objeler sanat için farklı anlamlarda ve amaçlarla kullanılmaya başladı. Bu çalışmda çöpün sanatsal bağlamda ele alınması yapılacaktır. Çöpün nasıl sanatta yer bulduğu incelenmiştir.}
+% Sanat dışı objelerin sanata malzeme olması sanatın dilinde genişlemere olanak vermiştir (ve çöpün sanat işlerinden kullanılması bu bağlamda incelenebilmektedir.). Beraberinde pek çok akım ve üretim biçimini tetiklemiştir. Hem sanatın dili genişledi hem de objeler sanat için farklı anlamlarda ve amaçlarla kullanılmaya başladı. Bu çalışmda çöpün sanatsal bağlamda ele alınması yapılacaktır. Çöpün nasıl sanatta yer bulduğu incelenmiştir.
 
-%Çöp ve sanatsal eylem birlikte alınarak incelenmiştir. Çöp olgusu ve sanat dışı malzemelerin sanatta kullanılması sorgulanmıştır. Teoriler ve methodlar ele alınmıştır. Çöpün ne olduğu sorgulanmaktadır ve çöpe yeni bir bakış açısı kazandırmak amaçlanmaktadır.
+% Çöp ve sanatsal eylem birlikte alınarak incelenmiştir. Çöp olgusu ve sanat dışı malzemelerin sanatta kullanılması sorgulanmıştır. Teoriler ve methodlar ele alınmıştır. Çöpün ne olduğu sorgulanmaktadır ve çöpe yeni bir bakış açısı kazandırmak amaçlanmaktadır.
 
-%Tez dahilinde geliştirilen proje için insanlar örgütlenerek farklı mekanlardan farklı tiplerde atık kağıtlar toplanmıştır. Bu atık maddeler dönüştürülerek defter yapılmıştır. Renk, doku, biçim ve üretim yöntemi ile endüstriyel defterlere alternatif bir yaklaşım olması amaçlanmıştır. Bu defterler insanların ulaşabileceği belirli mekanlara dağıtılmıştır (yerleştirilmiştir). Mekanlar da aynı şekilde eleştirel bakış açısına açık yerler arasından seçilmiştir. Alternatif bir ortam sunan mekanlar seçilmiştir. Defterlerin mekanla belirli bir anlamsal ilişki içine girmesi amaçlanmıştır. Bu proje sonunda dönüştürülen şeylerin aynı zamanda dönüşütüğü şeyi de başka bir şeye dönüştürdüğü anlaşılmaktadır. Çöpe olan bakış açısının dönüştürülmesi amaç edilmiştir.
+% Tez dahilinde geliştirilen proje için insanlar örgütlenerek farklı mekanlardan farklı tiplerde atık kağıtlar toplanmıştır. Bu atık maddeler dönüştürülerek defter yapılmıştır. Renk, doku, biçim ve üretim yöntemi ile endüstriyel defterlere alternatif bir yaklaşım olması amaçlanmıştır. Bu defterler insanların ulaşabileceği belirli mekanlara dağıtılmıştır (yerleştirilmiştir). Mekanlar da aynı şekilde eleştirel bakış açısına açık yerler arasından seçilmiştir. Alternatif bir ortam sunan mekanlar seçilmiştir. Defterlerin mekanla belirli bir anlamsal ilişki içine girmesi amaçlanmıştır. Bu proje sonunda dönüştürülen şeylerin aynı zamanda dönüşütüğü şeyi de başka bir şeye dönüştürdüğü anlaşılmaktadır. Çöpe olan bakış açısının dönüştürülmesi amaç edilmiştir.
 
 \noindent Anahtar Kelimeler: Atığın Dönüştürülmesi, Sanatta Atık, Sanatsal Malzeme olarak Atık.
 \clearpage
@@ -353,11 +354,11 @@ I would like to thank my colleagues; Mert Aslan and Eda Erdem for their friendsh
 
 I must thank to Melis Golar and Cemil Batur Gökçeer from Torun for opening their space to my project. 
 
-I would like to thank my bosses and colleagues from Mobilus; Özgür Deniz Önür, Yağız Yaşaroğlu, Ekin Dino, Ayşegül Yaşaroğlu, Süleyman Yıldız and Aytaç Kocaman for their support, trust and sharing their discard with me.
+I would like to thank my bosses and colleagues from Mobilus; Özgür Deniz Önür, Yağız Yaşaroğlu, Ekin Dino, Ayşegül Yaşaroğlu, Süleyman Yıldız and Aytaç Kocaman for their support, trust and collecting their discard for the thesis project.
 
-I am grateful to M. Elgin Akpınar, Nihan Özdemirler, M. Cem B. Üstündağ, B. Ceren D. Üstündağ, Ayşenur Durgut, Emrah Şamdan, Duygu Ç. Şamdan, Ali from METU Technopolis İş Bank Office, Aykut from Modshifters and Varuna Gezgin for collecting and sharing their discard with me. 
+I am grateful to M. Elgin Akpınar, Nihan Özdemirler, M. Cem B. Üstündağ, B. Ceren D. Üstündağ, Ayşenur Durgut, Emrah Şamdan, Duygu Ç. Şamdan, and Koray Benli for their valuable friendship, and also Ali from METU Technopolis İş Bank Office, Aykut from Modshifters, and Varuna Gezgin for collecting discarded materials for the thesis project.
 
-Lastly and mostly, I would like to thank my family for their love, trust and support from the very beginning of this work. 
+Lastly and mostly, I would like to thank my family for their love, trust and support from the very beginning of this study. 
 \clearpage
 %........................................
 
@@ -444,7 +445,7 @@ Lastly and mostly, I would like to thank my family for their love, trust and sup
 
 %****************************************
 % CHAPTERS
-\include{chapter1_reduced}
+\include{chapter1_final}
 \include{chapter2_reduced}
 \include{chapter3_reduced}
 \include{chapter4_reduced}
